@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 COMMON_SYMPTOM_MAP = {
     # General terms
     'fever': ['fever', 'high temperature', 'raised temperature', 'feeling hot', 'hot flashes'],
-    'cough': ['cough', 'coughing', 'hacking', 'persistent cough'],
+    'cough': ['cough', 'coughing', 'hacking cough', 'persistent cough'],
     'headache': ['headache', 'migraine', 'head pain', 'throbbing head', 'pain in head'],
     'fatigue': ['tired', 'tiredness', 'fatigue', 'exhausted', 'weak', 'lack of energy'],
     'sore throat': ['sore throat', 'throat pain', 'pain when swallowing', 'scratchy throat'],
@@ -97,12 +97,12 @@ def normalize_symptoms_text_advanced(symptom_string):
     
     return ", ".join(unique_symptoms)
 
-def clean_disease_data(input_csv_path='data/diseases.csv', output_csv_path='data/cleaned_diseases.csv'):
+def get_cleaned_disease_dataframe(input_csv_path='data/diseases.csv'):
     """
-    Cleans the disease data CSV, applying advanced normalization.
-    Adds 'symptoms_normalized' and 'normalized_symptoms_list' columns.
+    Reads a raw disease CSV, cleans it, applies normalization, and returns a
+    cleaned pandas DataFrame. Returns None on failure.
     """
-    logger.info(f"Starting advanced data cleaning from '{input_csv_path}' to '{output_csv_path}'...")
+    logger.info(f"Starting data cleaning process from '{input_csv_path}'...")
     
     if not os.path.exists(input_csv_path):
         logger.error(f"Input CSV file not found: {input_csv_path}")
@@ -150,10 +150,8 @@ def clean_disease_data(input_csv_path='data/diseases.csv', output_csv_path='data
             logger.error("Critical columns missing after cleaning. Expected: ['disease', 'symptoms', 'treatment', 'symptoms_normalized', 'normalized_symptoms_list']")
             return None
 
-        # Save the cleaned data
-        df.to_csv(output_csv_path, index=False)
-        logger.info(f"Successfully cleaned data and saved {len(df)} rows to '{output_csv_path}'.")
-        return output_csv_path
+        logger.info(f"Successfully cleaned data. DataFrame with {len(df)} rows is ready.")
+        return df
 
     except Exception as e:
         logger.error(f"An error occurred during advanced data cleaning: {e}", exc_info=True)
@@ -174,9 +172,11 @@ if __name__ == "__main__":
         pd.DataFrame(dummy_data).to_csv('data/diseases.csv', index=False)
         logger.info("Created dummy data/diseases.csv for demonstration.")
 
-    # Run the cleaning process
-    cleaned_file = clean_disease_data()
-    if cleaned_file:
-        logger.info(f"Advanced data cleaning finished. Cleaned data is at: {cleaned_file}")
+    # Run the cleaning process and save to a new CSV for inspection
+    cleaned_df = get_cleaned_disease_dataframe()
+    if cleaned_df is not None:
+        output_path = 'data/cleaned_diseases_for_inspection.csv'
+        cleaned_df.to_csv(output_path, index=False)
+        logger.info(f"Advanced data cleaning finished. Inspected data is at: {output_path}")
     else:
         logger.error("Advanced data cleaning process failed.")

@@ -5,8 +5,7 @@ from sentence_transformers import SentenceTransformer, util
 import torch
 import logging
 import os
-# Import necessary functions from data_utils
-from data_utils import clean_disease_data, normalize_symptoms_text_advanced
+from data_utils import get_cleaned_disease_dataframe, normalize_symptoms_text_advanced
 
 # --- Logging Setup ---
 log_dir = 'logs'
@@ -32,7 +31,11 @@ _df = None # DataFrame holding cleaned disease data
 _is_loaded = False # Flag to check if resources are loaded
 
 # --- Resource Loading Function ---
-def load_symptom_checker_resources(csv_path='data/cleaned_diseases.csv', model_name='all-MiniLM-L6-v2'):
+def load_symptom_checker_resources(
+    json_path='data/diseases.json', 
+    raw_csv_path='data/diseases.csv', 
+    model_name='all-MiniLM-L6-v2'
+):
     """
     Loads the CSV data and the sentence transformer model.
     This function is called once when the application starts or when the checker is first used.
@@ -45,20 +48,25 @@ def load_symptom_checker_resources(csv_path='data/cleaned_diseases.csv', model_n
 
     logger.info("Attempting to load symptom checker resources...")
     
-    # --- Data Preparation ---
-    # Ensure the cleaned data file exists; if not, attempt to create it.
-    if not os.path.exists(csv_path):
-        logger.warning(f"Cleaned data file '{csv_path}' not found. Attempting to clean original data from 'data/diseases.csv'.")
-        # Call the cleaning function from data_utils.py
-        cleaned_file = clean_disease_data() 
-        if not cleaned_file:
-            logger.error("Failed to clean data. Cannot proceed with loading resources.")
-            return False
-        csv_path = cleaned_file # Use the path to the newly cleaned file
-
     # --- Load Data ---
     try:
-        df = pd.read_csv(csv_path)
+        df = None
+        # Prioritize loading from the processed JSON file for speed and reliability
+        if os.path.exists(json_path):
+            logger.info(f"Found processed JSON file. Loading from '{json_path}'...")
+            df = pd.read_json(json_path, orient='records')
+        else:
+            # If JSON doesn't exist, create it from the raw CSV
+            logger.warning(f"Processed JSON file '{json_path}' not found. Building from '{raw_csv_path}'...")
+            df = get_cleaned_disease_dataframe(raw_csv_path)
+            if df is not None and not df.empty:
+                # Save the cleaned DataFrame to JSON for future runs
+                df.to_json(json_path, orient='records', indent=4)
+                logger.info(f"Successfully created and saved processed data to '{json_path}'.")
+            else:
+                logger.error(f"Failed to create DataFrame from '{raw_csv_path}'. Cannot proceed.")
+                return False
+
         if df.empty:
             raise ValueError("Cleaned CSV file is empty.")
         
@@ -67,8 +75,8 @@ def load_symptom_checker_resources(csv_path='data/cleaned_diseases.csv', model_n
         if not all(col in df.columns for col in required_columns):
             raise ValueError(f"Cleaned CSV must contain columns: {required_columns}")
         
-        _df = df # Store the loaded DataFrame globally
-        logger.info(f"Successfully loaded {_df.shape[0]} disease entries from {csv_path}.")
+        _df = df  # Store the loaded DataFrame globally
+        logger.info(f"Successfully loaded {_df.shape[0]} disease entries.")
 
         # --- Load Sentence Transformer Model ---
         logger.info(f"Loading Sentence Transformer model: {model_name}")
@@ -109,7 +117,7 @@ class SymptomChecker:
         to the user's input using sentence embeddings.
         Returns a list of dictionaries, each containing disease info and confidence.
         """
-        if not _model or not _embeddings or _df is None:
+        if _model is None or _embeddings is None or _df is None:
             logger.error("Model or data not loaded. Cannot perform similarity search.")
             return []
 
@@ -155,7 +163,7 @@ class SymptomChecker:
         Uses the normalized symptom lists for comparison.
         Returns a dictionary mapping disease names to their overlap score.
         """
-        if not _df or 'normalized_symptoms_list' not in _df.columns:
+        if _df is None or 'normalized_symptoms_list' not in _df.columns:
             logger.error("DataFrame or 'normalized_symptoms_list' column missing for keyword overlap calculation.")
             return {}
 
@@ -169,7 +177,7 @@ class SymptomChecker:
 
             overlap_scores = {}
             # Iterate through each disease in the DataFrame
-            for index, row in self._df.iterrows():
+            for index, row in _df.iterrows():
                 disease = row['disease']
                 # Get the set of normalized symptoms for the current disease
                 disease_symptom_set = set(row['normalized_symptoms_list'])

@@ -171,3 +171,419 @@ pandas.errors.ParserError: Error tokenizing data. C error: Expected 3 fields in 
 2025-08-05 20:56:30,117 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 20:56:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2025-08-05 20:56:30,431 - app - WARNING - 404 Error: Requested path '/.well-known/appspecific/com.chrome.devtools.json' not found.
 2025-08-05 20:56:30,434 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 20:56:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-05 20:59:44,723 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 20:59:44] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 20:59:44,984 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 20:59:44] "GET / HTTP/1.1" 200 -
+2025-08-05 20:59:45,047 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 20:59:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 20:59:45,327 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 20:59:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 20:59:45,328 - app - WARNING - 404 Error: Requested path '/.well-known/appspecific/com.chrome.devtools.json' not found.
+2025-08-05 20:59:45,329 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 20:59:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-05 21:01:36,836 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:36] "GET / HTTP/1.1" 200 -
+2025-08-05 21:01:37,100 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:01:37,177 - app - WARNING - 404 Error: Requested path '/.well-known/appspecific/com.chrome.devtools.json' not found.
+2025-08-05 21:01:37,178 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-05 21:01:37,178 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:01:37,773 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:37] "GET / HTTP/1.1" 200 -
+2025-08-05 21:01:38,105 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:01:38,109 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:01:38,109 - app - WARNING - 404 Error: Requested path '/.well-known/appspecific/com.chrome.devtools.json' not found.
+2025-08-05 21:01:38,110 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:38] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-05 21:01:39,900 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:39] "GET / HTTP/1.1" 200 -
+2025-08-05 21:01:40,238 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:01:40,238 - app - WARNING - 404 Error: Requested path '/.well-known/appspecific/com.chrome.devtools.json' not found.
+2025-08-05 21:01:40,240 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:01:40,240 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:01:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-05 21:01:48,274 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-05 21:01:48,280 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-05 21:01:49,844 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-05 21:02:01,972 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-05 21:02:01,973 - logic - WARNING - Cleaned data file 'data/cleaned_diseases.csv' not found. Attempting to clean original data from 'data/diseases.csv'.
+2025-08-05 21:02:01,973 - data_utils - INFO - Starting advanced data cleaning from 'data/diseases.csv' to 'data/cleaned_diseases.csv'...
+2025-08-05 21:02:01,980 - data_utils - INFO - Loaded 137 rows from original CSV.
+2025-08-05 21:02:01,982 - data_utils - INFO - Removed 48 duplicate disease entries.
+2025-08-05 21:02:02,013 - data_utils - INFO - Successfully cleaned data and saved 89 rows to 'data/cleaned_diseases.csv'.
+2025-08-05 21:02:02,023 - logic - INFO - Successfully loaded 89 disease entries from data/cleaned_diseases.csv.
+2025-08-05 21:02:02,023 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-05 21:02:02,033 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-05 21:02:02,034 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-05 21:02:21,089 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-05 21:02:21,266 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-05 21:02:21,266 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:02:21,287 - werkzeug - WARNING -  * Debugger is active!
+2025-08-05 21:02:21,307 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-05 21:02:22,064 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:22] "GET / HTTP/1.1" 200 -
+2025-08-05 21:02:22,067 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:22] "GET / HTTP/1.1" 200 -
+2025-08-05 21:02:22,070 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:22] "GET / HTTP/1.1" 200 -
+2025-08-05 21:02:22,072 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:22] "GET / HTTP/1.1" 200 -
+2025-08-05 21:02:22,506 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:02:22,508 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:02:37,985 - app - ERROR - Exception in POST handler for '/': Boolean value of Tensor with more than one value is ambiguous
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\app.py", line 106, in index
+    disease, treatment, confidence = checker.diagnose(user_symptoms_input_raw)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 205, in diagnose
+    top_n_matches = self._get_top_matches(user_input, top_n=5) # Fetch a few initial candidates
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 112, in _get_top_matches
+    if not _model or not _embeddings or _df is None:
+RuntimeError: Boolean value of Tensor with more than one value is ambiguous
+2025-08-05 21:02:37,987 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:37] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:02:38,307 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:38] "GET / HTTP/1.1" 200 -
+2025-08-05 21:02:38,555 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:02:38,634 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:02:40,101 - app - ERROR - Exception in POST handler for '/': Boolean value of Tensor with more than one value is ambiguous
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\app.py", line 106, in index
+    disease, treatment, confidence = checker.diagnose(user_symptoms_input_raw)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 205, in diagnose
+    top_n_matches = self._get_top_matches(user_input, top_n=5) # Fetch a few initial candidates
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 112, in _get_top_matches
+    if not _model or not _embeddings or _df is None:
+RuntimeError: Boolean value of Tensor with more than one value is ambiguous
+2025-08-05 21:02:40,102 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:02:40,416 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:40] "GET / HTTP/1.1" 200 -
+2025-08-05 21:02:40,680 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:02:40,743 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:02:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:04:05,853 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\data_utils.py', reloading
+2025-08-05 21:04:05,855 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\logic.py', reloading
+2025-08-05 21:04:05,855 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\data_utils.py', reloading
+2025-08-05 21:04:05,856 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\data_utils.py', reloading
+2025-08-05 21:04:05,857 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\logic.py', reloading
+2025-08-05 21:04:07,981 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-05 21:04:19,704 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-05 21:04:19,711 - logic - INFO - Successfully loaded 89 disease entries from data/cleaned_diseases.csv.
+2025-08-05 21:04:19,711 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-05 21:04:19,726 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-05 21:04:19,726 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-05 21:04:27,111 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-05 21:04:27,284 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-05 21:04:27,284 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:04:27,304 - werkzeug - WARNING -  * Debugger is active!
+2025-08-05 21:04:27,326 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-05 21:06:48,952 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:06:48] "GET / HTTP/1.1" 200 -
+2025-08-05 21:06:49,206 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-05 21:06:49,208 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:06:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 21:06:54,206 - app - ERROR - Exception in POST handler for '/': The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\app.py", line 106, in index
+    disease, treatment, confidence = checker.diagnose(user_symptoms_input_raw)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 212, in diagnose
+    keyword_scores = self._calculate_keyword_overlap(user_input)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 158, in _calculate_keyword_overlap
+    if not _df or 'normalized_symptoms_list' not in _df.columns:
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-08-05 21:06:54,209 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:06:54] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:06:54,522 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:06:54] "GET / HTTP/1.1" 200 -
+2025-08-05 21:06:54,839 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:06:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:06:54,852 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:06:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:07:13,510 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:07:13] "GET / HTTP/1.1" 200 -
+2025-08-05 21:07:13,838 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:07:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:07:13,839 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:07:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:14:59,876 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-05 21:14:59,876 - logic - WARNING - Processed JSON file 'data/diseases.json' not found. Building from 'data/diseases.csv'...
+2025-08-05 21:14:59,876 - data_utils - INFO - Starting data cleaning process from 'data/diseases.csv'...
+2025-08-05 21:14:59,887 - data_utils - INFO - Loaded 137 rows from original CSV.
+2025-08-05 21:14:59,889 - data_utils - INFO - Removed 48 duplicate disease entries.
+2025-08-05 21:14:59,913 - data_utils - INFO - Successfully cleaned data. DataFrame with 89 rows is ready.
+2025-08-05 21:14:59,915 - logic - INFO - Successfully created and saved processed data to 'data/diseases.json'.
+2025-08-05 21:14:59,915 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-05 21:14:59,915 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-05 21:14:59,926 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-05 21:14:59,926 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-05 21:15:08,921 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-05 21:15:09,091 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-05 21:15:09,091 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:15:10,583 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-08-05 21:15:10,583 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 21:15:10,661 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-05 21:15:22,609 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-05 21:15:22,609 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-05 21:15:22,615 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-05 21:15:22,615 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-05 21:15:22,627 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-05 21:15:22,627 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-05 21:15:29,299 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-05 21:15:29,468 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-05 21:15:29,468 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:15:29,488 - werkzeug - WARNING -  * Debugger is active!
+2025-08-05 21:15:29,506 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-05 21:17:26,328 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:17:26] "GET / HTTP/1.1" 200 -
+2025-08-05 21:17:26,644 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:17:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:17:26,686 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:17:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:17:29,943 - app - ERROR - Exception in POST handler for '/': The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\app.py", line 106, in index
+    disease, treatment, confidence = checker.diagnose(user_symptoms_input_raw)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 220, in diagnose
+    keyword_scores = self._calculate_keyword_overlap(user_input)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 166, in _calculate_keyword_overlap
+    if not _df or 'normalized_symptoms_list' not in _df.columns:
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-08-05 21:17:29,975 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:17:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:17:30,297 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:17:30] "GET / HTTP/1.1" 200 -
+2025-08-05 21:17:30,546 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:17:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:17:30,623 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:17:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:17:32,324 - app - ERROR - Exception in POST handler for '/': The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\app.py", line 106, in index
+    disease, treatment, confidence = checker.diagnose(user_symptoms_input_raw)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 220, in diagnose
+    keyword_scores = self._calculate_keyword_overlap(user_input)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 166, in _calculate_keyword_overlap
+    if not _df or 'normalized_symptoms_list' not in _df.columns:
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-08-05 21:17:32,326 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:17:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:17:32,643 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:17:32] "GET / HTTP/1.1" 200 -
+2025-08-05 21:17:32,907 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:17:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:17:32,968 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:17:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:19:21,781 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-05 21:19:21,782 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-05 21:19:21,787 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-05 21:19:21,787 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-05 21:19:21,796 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-05 21:19:21,796 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-05 21:19:28,811 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-05 21:19:28,967 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-05 21:19:28,968 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:19:30,273 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-08-05 21:19:30,274 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 21:19:30,291 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-05 21:19:41,173 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-05 21:19:41,173 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-05 21:19:41,179 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-05 21:19:41,179 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-05 21:19:41,189 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-05 21:19:41,189 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-05 21:19:48,668 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-05 21:19:48,834 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-05 21:19:48,834 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:19:48,853 - werkzeug - WARNING -  * Debugger is active!
+2025-08-05 21:19:48,873 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-05 21:20:27,944 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:27] "GET / HTTP/1.1" 200 -
+2025-08-05 21:20:28,210 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:28] "GET / HTTP/1.1" 200 -
+2025-08-05 21:20:31,177 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:31] "GET / HTTP/1.1" 200 -
+2025-08-05 21:20:31,288 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:31] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-05 21:20:31,294 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-05 21:20:31,329 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-05 21:20:31,344 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 21:20:42,357 - app - ERROR - Exception in POST handler for '/': The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\app.py", line 106, in index
+    disease, treatment, confidence = checker.diagnose(user_symptoms_input_raw)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 220, in diagnose
+    keyword_scores = self._calculate_keyword_overlap(user_input)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 166, in _calculate_keyword_overlap
+    if _df is None or 'normalized_symptoms_list' not in _df.columns:
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-08-05 21:20:42,362 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:42] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:20:42,395 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:42] "GET / HTTP/1.1" 200 -
+2025-08-05 21:20:42,428 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:20:42,434 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:20:53,183 - app - ERROR - Exception in POST handler for '/': The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\app.py", line 106, in index
+    disease, treatment, confidence = checker.diagnose(user_symptoms_input_raw)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 220, in diagnose
+    keyword_scores = self._calculate_keyword_overlap(user_input)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\idk-wut\logic.py", line 166, in _calculate_keyword_overlap
+    if _df is None or 'normalized_symptoms_list' not in _df.columns:
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-08-05 21:20:53,185 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:53] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:20:53,211 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:53] "GET / HTTP/1.1" 200 -
+2025-08-05 21:20:53,251 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:20:53,251 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:20:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:23:03,526 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-05 21:23:03,527 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-05 21:23:03,533 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-05 21:23:03,533 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-05 21:23:03,543 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-05 21:23:03,543 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-05 21:23:10,649 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-05 21:23:10,807 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-05 21:23:10,807 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:23:12,111 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-08-05 21:23:12,111 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 21:23:12,128 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-05 21:23:22,782 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-05 21:23:22,782 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-05 21:23:22,787 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-05 21:23:22,787 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-05 21:23:22,796 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-05 21:23:22,796 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-05 21:23:30,267 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-05 21:23:30,419 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-05 21:23:30,419 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:23:30,438 - werkzeug - WARNING -  * Debugger is active!
+2025-08-05 21:23:30,454 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-05 21:23:31,097 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:23:31] "GET / HTTP/1.1" 200 -
+2025-08-05 21:23:31,099 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:23:31] "GET / HTTP/1.1" 200 -
+2025-08-05 21:23:31,400 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:23:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:23:31,402 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:23:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:23:34,808 - logic - WARNING - Diagnosis attempt: Input='Cough...' -> Predicted='Bronchitis (Acute)' Confidence=24.5% (Emb=34.9%, KW=0.0%)
+2025-08-05 21:23:34,817 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:23:34] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:23:34,849 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:23:34] "GET / HTTP/1.1" 200 -
+2025-08-05 21:23:34,887 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:23:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:23:34,888 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:23:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:23:46,760 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-05 21:23:46,760 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-05 21:23:46,761 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-05 21:23:47,482 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-05 21:23:58,673 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-05 21:23:58,674 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-05 21:23:58,679 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-05 21:23:58,679 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-05 21:23:58,689 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-05 21:23:58,689 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-05 21:24:06,429 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-05 21:24:06,599 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-05 21:24:06,599 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:24:06,620 - werkzeug - WARNING -  * Debugger is active!
+2025-08-05 21:24:06,637 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-05 21:24:07,349 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:07] "GET / HTTP/1.1" 200 -
+2025-08-05 21:24:07,362 - logic - INFO - Diagnosis attempt: Input='fever cough driness tired...' -> Predicted='Tuberculosis (TB)' Confidence=46.0% (Emb=65.8%, KW=0.0%)
+2025-08-05 21:24:07,374 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:24:07,840 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:24:07,845 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:24:13,614 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:13] "GET / HTTP/1.1" 200 -
+2025-08-05 21:24:13,957 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:24:13,957 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:24:14,202 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-05 21:24:14,203 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 21:24:21,227 - logic - INFO - Diagnosis attempt: Input='fever cough driness tired headache...' -> Predicted='Flu' Confidence=49.0% (Emb=70.0%, KW=0.0%)
+2025-08-05 21:24:21,238 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:21] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:24:21,550 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:21] "GET / HTTP/1.1" 200 -
+2025-08-05 21:24:21,815 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:24:21,876 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:24:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:25:48,130 - logic - WARNING - Diagnosis attempt: Input='Headache stuffed nose soreness...' -> Predicted='Sinusitis (Sinus Infection)' Confidence=37.2% (Emb=53.1%, KW=0.0%)
+2025-08-05 21:25:48,138 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:25:48] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:25:48,171 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:25:48] "GET / HTTP/1.1" 200 -
+2025-08-05 21:25:48,321 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:25:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:25:48,322 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:25:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:26:22,530 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:22] "GET / HTTP/1.1" 200 -
+2025-08-05 21:26:22,791 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:26:22,854 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:26:22,926 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-05 21:26:22,926 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 21:26:25,843 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:25] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:26:25,843 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:26:31,650 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:31] "GET / HTTP/1.1" 200 -
+2025-08-05 21:26:31,977 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:26:31,978 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:31] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:26:31,978 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:26:37,479 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:37] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:26:37,797 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:37] "GET / HTTP/1.1" 200 -
+2025-08-05 21:26:38,064 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:26:38,125 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:38] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:26:38,125 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:26:45,572 - logic - WARNING - Diagnosis attempt: Input='soreness...' -> Predicted='Shingles (Herpes Zoster)' Confidence=35.0% (Emb=50.1%, KW=0.0%)
+2025-08-05 21:26:45,582 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:45] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:26:45,888 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:45] "GET / HTTP/1.1" 200 -
+2025-08-05 21:26:46,153 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:26:46,216 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:46] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:26:46,217 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:26:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:27:02,309 - logic - WARNING - Diagnosis attempt: Input='lifestyle changes (smoking cessation, exercise), m...' -> Predicted='Hyperthyroidism' Confidence=25.8% (Emb=36.9%, KW=0.0%)
+2025-08-05 21:27:02,319 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:02] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:27:02,628 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:02] "GET / HTTP/1.1" 200 -
+2025-08-05 21:27:02,895 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:27:02,956 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:02] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:27:02,957 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:27:12,696 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:27:17,663 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:17] "GET / HTTP/1.1" 200 -
+2025-08-05 21:27:17,920 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-05 21:27:18,020 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:18] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:27:18,021 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:18] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-05 21:27:20,123 - logic - WARNING - Diagnosis attempt: Input='lifestyle changes (smoking cessation, exercise), m...' -> Predicted='Hyperthyroidism' Confidence=25.8% (Emb=36.9%, KW=0.0%)
+2025-08-05 21:27:20,136 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:27:20,453 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:20] "GET / HTTP/1.1" 200 -
+2025-08-05 21:27:20,717 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:27:20,826 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:20] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:27:20,827 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:27:23,057 - logic - WARNING - Diagnosis attempt: Input='lifestyle changes (smoking cessation, exercise), m...' -> Predicted='Hyperthyroidism' Confidence=25.8% (Emb=36.9%, KW=0.0%)
+2025-08-05 21:27:23,067 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:27:23,376 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:23] "GET / HTTP/1.1" 200 -
+2025-08-05 21:27:23,640 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:27:23,767 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:23] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:27:23,768 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:27:23,768 - app - WARNING - 404 Error: Requested path '/robots.txt' not found.
+2025-08-05 21:27:23,769 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:23] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+2025-08-05 21:27:25,489 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:25] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:27:25,812 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:25] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:27:26,225 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:26] "GET / HTTP/1.1" 200 -
+2025-08-05 21:27:26,570 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:27:26,572 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:27:26,616 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:26] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:27:40,877 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:40] "GET / HTTP/1.1" 200 -
+2025-08-05 21:27:41,203 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:41] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:27:41,204 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:27:41,204 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:27:42,669 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:42] "GET / HTTP/1.1" 200 -
+2025-08-05 21:27:43,004 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:43] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:27:43,004 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:27:43,004 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:27:59,284 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:59] "GET / HTTP/1.1" 200 -
+2025-08-05 21:27:59,547 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:27:59,625 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:27:59,709 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-05 21:27:59,710 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:27:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 21:28:15,471 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:15] "GET / HTTP/1.1" 200 -
+2025-08-05 21:28:15,732 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:28:15,810 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:28:15,889 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-05 21:28:15,889 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 21:28:23,373 - logic - WARNING - Diagnosis attempt: Input='fever dry cough tiredness cold...' -> Predicted='Tuberculosis (TB)' Confidence=43.4% (Emb=62.0%, KW=0.0%)
+2025-08-05 21:28:23,382 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:28:23,629 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:23] "GET / HTTP/1.1" 200 -
+2025-08-05 21:28:23,691 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:28:23,958 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:28:50,497 - logic - INFO - Diagnosis attempt: Input='itching fever redness tiredness headache...' -> Predicted='Chickenpox (Varicella)' Confidence=47.2% (Emb=67.4%, KW=0.0%)
+2025-08-05 21:28:50,508 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:50] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:28:50,817 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:50] "GET / HTTP/1.1" 200 -
+2025-08-05 21:28:51,083 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:28:51,144 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:28:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:29:14,458 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:29:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:29:14,777 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:29:14] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:29:18,701 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:29:18] "GET / HTTP/1.1" 200 -
+2025-08-05 21:29:19,059 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:29:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-05 21:29:19,060 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:29:19] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:29:19,060 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:29:19] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-05 21:29:49,406 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:29:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:29:49,747 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:29:49] "GET / HTTP/1.1" 200 -
+2025-08-05 21:29:49,993 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:29:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:29:50,089 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:29:50] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+2025-08-05 21:29:50,089 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 21:29:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:32:03,334 - logic - INFO - Diagnosis attempt: Input='Itching fever rash tiredness sore throat...' -> Predicted='Chickenpox (Varicella)' Confidence=48.9% (Emb=69.9%, KW=0.0%)
+2025-08-05 21:32:03,343 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:32:03] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:32:03,373 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:32:03] "GET / HTTP/1.1" 200 -
+2025-08-05 21:32:03,404 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:32:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:32:03,412 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:32:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

@@ -103,7 +103,7 @@ def index():
         else:
             try:
                 # Get primary diagnosis and other possibilities
-                disease, treatment, confidence = checker.diagnose(user_symptoms_input_raw)
+                disease, treatment, confidence = checker.diagnose(user_symptoms_input_raw, confidence_threshold=45.0)
                 
                 # Check if diagnose returned an error message or low confidence warning
                 if "Could not confidently diagnose" in disease or "Could not determine a diagnosis" in disease or confidence < 45.0: # Use a confidence check here too
@@ -166,6 +166,16 @@ def get_symptoms():
             filtered_symptoms = filtered_symptoms[:10] # Limit results
 
     return jsonify({"status": "success", "symptoms": filtered_symptoms})
+
+
+# Route to handle Chrome DevTools requests and prevent 404 logs
+@app.route('/.well-known/appspecific/com.chrome.devtools.json')
+def chrome_devtools_json():
+    """
+    Handles a specific request from Chrome's DevTools to prevent 404 errors
+    in the log. This is not required for functionality.
+    """
+    return jsonify({}), 200 # Return an empty JSON with a 200 OK status
 
 
 # --- Feedback Route ---

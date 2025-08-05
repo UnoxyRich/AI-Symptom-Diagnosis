@@ -1,0 +1,1263 @@
+[
+    {
+        "disease":"Flu",
+        "symptoms":"high temperature, hacking cough, throat pain, runny nose, body aches, profound fatigue, headache",
+        "treatment":"rest, hydration, over-the-counter pain relievers, antiviral drugs",
+        "symptoms_normalized":"fever, cough, sore throat, runny nose, muscle aches, profound fatigue, headache",
+        "normalized_symptoms_list":[
+            "fever",
+            "cough",
+            "sore throat",
+            "runny nose",
+            "muscle aches",
+            "profound fatigue",
+            "headache"
+        ]
+    },
+    {
+        "disease":"Common Cold",
+        "symptoms":"sneezing, nasal discharge, scratchy throat, congestion, mild cough, feeling unwell",
+        "treatment":"rest, hydration, decongestants, vitamin c, throat lozenges",
+        "symptoms_normalized":"sneezing, runny nose, sore throat, congestion, mild cough, feeling unwell",
+        "normalized_symptoms_list":[
+            "sneezing",
+            "runny nose",
+            "sore throat",
+            "congestion",
+            "mild cough",
+            "feeling unwell"
+        ]
+    },
+    {
+        "disease":"COVID-19",
+        "symptoms":"fever or chills, dry cough, tiredness, loss of taste or smell, shortness of breath, muscle aches, sore throat, headache",
+        "treatment":"isolation, rest, fluids, medical attention if severe, antiviral medication like paxlovid",
+        "symptoms_normalized":"fever or chills, dry cough, fatigue, loss of taste or smell, shortness of breath, muscle aches, sore throat, headache",
+        "normalized_symptoms_list":[
+            "fever or chills",
+            "dry cough",
+            "fatigue",
+            "loss of taste or smell",
+            "shortness of breath",
+            "muscle aches",
+            "sore throat",
+            "headache"
+        ]
+    },
+    {
+        "disease":"Migraine",
+        "symptoms":"severe throbbing headache, nausea, vomiting, extreme sensitivity to light, extreme sensitivity to sound, seeing auras or flashing lights",
+        "treatment":"pain relievers, triptans, dark quiet room, sleep, hydration",
+        "symptoms_normalized":"severe throbbing headache, nausea, vomiting, extreme sensitivity to light, extreme sensitivity to sound, seeing auras or flashing lights",
+        "normalized_symptoms_list":[
+            "severe throbbing headache",
+            "nausea",
+            "vomiting",
+            "extreme sensitivity to light",
+            "extreme sensitivity to sound",
+            "seeing auras or flashing lights"
+        ]
+    },
+    {
+        "disease":"Allergy (Hay Fever)",
+        "symptoms":"sneezing fits, itchy and watery eyes, runny or stuffy nose, itchy skin, rash, wheezing, post-nasal drip",
+        "treatment":"antihistamines, avoid allergens, nasal corticosteroid sprays, allergy shots",
+        "symptoms_normalized":"sneezing fits, itchy and itchy eyes, runny or stuffy nose, itchy skin, rash, wheezing, post-nasal drip",
+        "normalized_symptoms_list":[
+            "sneezing fits",
+            "itchy and itchy eyes",
+            "runny or stuffy nose",
+            "itchy skin",
+            "rash",
+            "wheezing",
+            "post-nasal drip"
+        ]
+    },
+    {
+        "disease":"Asthma",
+        "symptoms":"difficulty breathing, wheezing sound when exhaling, chest tightness or pain, coughing fits, especially at night or early morning",
+        "treatment":"rescue inhaler (albuterol), long-term controller inhalers (corticosteroids), avoiding triggers",
+        "symptoms_normalized":"shortness of breath, wheezing sound when exhaling, chest tightness or pain, cough fits, especially at night or early morning",
+        "normalized_symptoms_list":[
+            "shortness of breath",
+            "wheezing sound when exhaling",
+            "chest tightness or pain",
+            "cough fits",
+            "especially at night or early morning"
+        ]
+    },
+    {
+        "disease":"Diabetes Mellitus Type 1",
+        "symptoms":"extreme thirst (polydipsia), frequent urination (polyuria), unexplained weight loss, fatigue, blurred vision, slow-healing sores",
+        "treatment":"lifelong insulin therapy, regular blood sugar monitoring, carbohydrate counting, diet management",
+        "symptoms_normalized":"extreme thirst (polydipsia), frequent urination (polyuria), unexplained weight loss, fatigue, blurred vision, slow-healing sores",
+        "normalized_symptoms_list":[
+            "extreme thirst (polydipsia)",
+            "frequent urination (polyuria)",
+            "unexplained weight loss",
+            "fatigue",
+            "blurred vision",
+            "slow-healing sores"
+        ]
+    },
+    {
+        "disease":"Diabetes Mellitus Type 2",
+        "symptoms":"increased thirst, frequent urination, fatigue, blurred vision, slow-healing sores, numbness or tingling in hands or feet, frequent infections",
+        "treatment":"diet management, exercise, oral medications (metformin), insulin therapy, weight management",
+        "symptoms_normalized":"increased thirst, frequent urination, fatigue, blurred vision, slow-healing sores, numbness or tingling in hands or feet, frequent infections",
+        "normalized_symptoms_list":[
+            "increased thirst",
+            "frequent urination",
+            "fatigue",
+            "blurred vision",
+            "slow-healing sores",
+            "numbness or tingling in hands or feet",
+            "frequent infections"
+        ]
+    },
+    {
+        "disease":"Hypertension (High Blood Pressure)",
+        "symptoms":"often asymptomatic (silent killer), persistent headache, dizziness, nosebleeds, blurred vision, shortness of breath in severe cases",
+        "treatment":"lifestyle changes (low-sodium diet, exercise, stress reduction), antihypertensive medication",
+        "symptoms_normalized":"often asymptomatic (silent killer), persistent headache, dizziness, nosebleeds, blurred vision, shortness of breath in severe cases",
+        "normalized_symptoms_list":[
+            "often asymptomatic (silent killer)",
+            "persistent headache",
+            "dizziness",
+            "nosebleeds",
+            "blurred vision",
+            "shortness of breath in severe cases"
+        ]
+    },
+    {
+        "disease":"Heart Attack (Myocardial Infarction)",
+        "symptoms":"crushing chest pain or pressure, pain radiating to the left arm\/jaw\/back, shortness of breath, cold sweat, nausea, lightheadedness",
+        "treatment":"emergency medical attention (call 911), aspirin, nitroglycerin, oxygen therapy, angioplasty or bypass surgery",
+        "symptoms_normalized":"crushing chest pain or pressure, pain radiating to the left arm\/jaw\/back, shortness of breath, cold sweat, nausea, lightheadedness",
+        "normalized_symptoms_list":[
+            "crushing chest pain or pressure",
+            "pain radiating to the left arm\/jaw\/back",
+            "shortness of breath",
+            "cold sweat",
+            "nausea",
+            "lightheadedness"
+        ]
+    },
+    {
+        "disease":"Stroke",
+        "symptoms":"sudden numbness or weakness in the face, arm, or leg (especially on one side), sudden confusion, trouble speaking or understanding, sudden dizziness, loss of balance, sudden severe headache",
+        "treatment":"emergency medical attention (call 911 immediately), clot-busting drugs (tpa), endovascular procedures, rehabilitation",
+        "symptoms_normalized":"sudden numbness or weakness in the face, arm, or leg (especially on one side), sudden confusion, trouble speaking or understanding, sudden dizziness, loss of balance, sudden severe headache",
+        "normalized_symptoms_list":[
+            "sudden numbness or weakness in the face",
+            "arm",
+            "or leg (especially on one side)",
+            "sudden confusion",
+            "trouble speaking or understanding",
+            "sudden dizziness",
+            "loss of balance",
+            "sudden severe headache"
+        ]
+    },
+    {
+        "disease":"Malaria",
+        "symptoms":"cycles of high fever, shaking chills, and profuse sweating, headache, muscle aches, fatigue, nausea, vomiting",
+        "treatment":"antimalarial drugs (artemisinin-based combination therapies), rest, hydration, paracetamol for fever",
+        "symptoms_normalized":"cycles of high fever, shaking chills, and profuse sweating, headache, muscle aches, fatigue, nausea, vomiting",
+        "normalized_symptoms_list":[
+            "cycles of high fever",
+            "shaking chills",
+            "and profuse sweating",
+            "headache",
+            "muscle aches",
+            "fatigue",
+            "nausea",
+            "vomiting"
+        ]
+    },
+    {
+        "disease":"Typhoid Fever",
+        "symptoms":"prolonged high fever, severe weakness, stomach pain, headache, loss of appetite, rose-colored spots (rash)",
+        "treatment":"antibiotics (ciprofloxacin, azithromycin), rehydration therapy, rest, soft diet",
+        "symptoms_normalized":"prolonged high fever, severe weakness, stomach pain, headache, loss of appetite, rose-colored spots (rash)",
+        "normalized_symptoms_list":[
+            "prolonged high fever",
+            "severe weakness",
+            "stomach pain",
+            "headache",
+            "loss of appetite",
+            "rose-colored spots (rash)"
+        ]
+    },
+    {
+        "disease":"Tuberculosis (TB)",
+        "symptoms":"persistent cough lasting more than 3 weeks (sometimes with blood), unintended weight loss, night sweats, fever, fatigue, chest pain",
+        "treatment":"long course of multiple antibiotics (6-9 months), rest, good nutrition, isolation initially",
+        "symptoms_normalized":"cough lasting more than 3 weeks (sometimes with blood), unintended weight loss, night sweats, fever, fatigue, chest pain",
+        "normalized_symptoms_list":[
+            "cough lasting more than 3 weeks (sometimes with blood)",
+            "unintended weight loss",
+            "night sweats",
+            "fever",
+            "fatigue",
+            "chest pain"
+        ]
+    },
+    {
+        "disease":"Hepatitis A",
+        "symptoms":"fatigue, nausea, jaundice (yellowing skin\/eyes), dark urine, clay-colored stool, abdominal pain, loss of appetite, low-grade fever",
+        "treatment":"rest, hydration, avoiding alcohol, supportive care (usually resolves on its own), vaccination for prevention",
+        "symptoms_normalized":"fatigue, nausea, jaundice (yellowing skin\/eyes), dark urine, clay-colored stool, abdominal pain, loss of appetite, low-grade fever",
+        "normalized_symptoms_list":[
+            "fatigue",
+            "nausea",
+            "jaundice (yellowing skin\/eyes)",
+            "dark urine",
+            "clay-colored stool",
+            "abdominal pain",
+            "loss of appetite",
+            "low-grade fever"
+        ]
+    },
+    {
+        "disease":"Hepatitis B",
+        "symptoms":"fatigue, jaundice, dark urine, abdominal pain, nausea, joint pain, loss of appetite",
+        "treatment":"antiviral medications for chronic cases, rest, avoiding alcohol, vaccination for prevention",
+        "symptoms_normalized":"fatigue, jaundice, dark urine, abdominal pain, nausea, joint pain, loss of appetite",
+        "normalized_symptoms_list":[
+            "fatigue",
+            "jaundice",
+            "dark urine",
+            "abdominal pain",
+            "nausea",
+            "joint pain",
+            "loss of appetite"
+        ]
+    },
+    {
+        "disease":"Hepatitis C",
+        "symptoms":"often asymptomatic for years, fatigue, jaundice, dark urine, abdominal pain, nausea, poor appetite, spider-like blood vessels on skin",
+        "treatment":"antiviral medications (daas) can cure most cases, liver monitoring, avoiding alcohol",
+        "symptoms_normalized":"often asymptomatic for years, fatigue, jaundice, dark urine, abdominal pain, nausea, poor appetite, spider-like blood vessels on skin",
+        "normalized_symptoms_list":[
+            "often asymptomatic for years",
+            "fatigue",
+            "jaundice",
+            "dark urine",
+            "abdominal pain",
+            "nausea",
+            "poor appetite",
+            "spider-like blood vessels on skin"
+        ]
+    },
+    {
+        "disease":"Dengue Fever",
+        "symptoms":"sudden high fever, severe headache, pain behind the eyes, severe muscle and joint pain, rash, mild bleeding from nose or gums",
+        "treatment":"rest, hydration, paracetamol for pain (avoid aspirin\/ibuprofen), medical monitoring for warning signs",
+        "symptoms_normalized":"sudden high fever, severe headache, pain behind the eyes, severe muscle and joint pain, rash, mild bleeding from nose or gums",
+        "normalized_symptoms_list":[
+            "sudden high fever",
+            "severe headache",
+            "pain behind the eyes",
+            "severe muscle and joint pain",
+            "rash",
+            "mild bleeding from nose or gums"
+        ]
+    },
+    {
+        "disease":"Chikungunya",
+        "symptoms":"abrupt onset of fever, severe and often debilitating joint pain, muscle pain, headache, nausea, rash, fatigue",
+        "treatment":"pain relievers, anti-inflammatory drugs (nsaids), rest, hydration, physical therapy for joint pain",
+        "symptoms_normalized":"abrupt onset of fever, severe and often debilitating joint pain, muscle pain, headache, nausea, rash, fatigue",
+        "normalized_symptoms_list":[
+            "abrupt onset of fever",
+            "severe and often debilitating joint pain",
+            "muscle pain",
+            "headache",
+            "nausea",
+            "rash",
+            "fatigue"
+        ]
+    },
+    {
+        "disease":"Pneumonia",
+        "symptoms":"sharp chest pain that worsens with deep breathing or coughing, productive cough with green\/yellow phlegm, high fever, chills, shortness of breath",
+        "treatment":"antibiotics (if bacterial), rest, plenty of fluids, oxygen therapy if severe",
+        "symptoms_normalized":"sharp chest pain that worsens with deep breathing or cough, productive cough with green\/yellow phlegm, high fever, chills, shortness of breath",
+        "normalized_symptoms_list":[
+            "sharp chest pain that worsens with deep breathing or cough",
+            "productive cough with green\/yellow phlegm",
+            "high fever",
+            "chills",
+            "shortness of breath"
+        ]
+    },
+    {
+        "disease":"Urinary Tract Infection (UTI)",
+        "symptoms":"burning sensation during urination, frequent and intense urge to urinate, passing small amounts of urine, cloudy or strong-smelling urine, pelvic pain",
+        "treatment":"antibiotics, increased fluid intake, cranberry juice or supplements for prevention",
+        "symptoms_normalized":"burning sensation during urination, frequent and intense urge to urinate, passing small amounts of urine, cloudy or strong-smelling urine, pelvic pain",
+        "normalized_symptoms_list":[
+            "burning sensation during urination",
+            "frequent and intense urge to urinate",
+            "passing small amounts of urine",
+            "cloudy or strong-smelling urine",
+            "pelvic pain"
+        ]
+    },
+    {
+        "disease":"Gastroenteritis (Stomach Flu)",
+        "symptoms":"watery diarrhea, vomiting, nausea, stomach cramps and pain, low-grade fever, headache, muscle aches",
+        "treatment":"rest, aggressive hydration (oral rehydration solutions), bland diet (brat: bananas, rice, applesauce, toast)",
+        "symptoms_normalized":"watery diarrhea, vomiting, nausea, stomach cramps and pain, low-grade fever, headache, muscle aches",
+        "normalized_symptoms_list":[
+            "watery diarrhea",
+            "vomiting",
+            "nausea",
+            "stomach cramps and pain",
+            "low-grade fever",
+            "headache",
+            "muscle aches"
+        ]
+    },
+    {
+        "disease":"Appendicitis",
+        "symptoms":"sudden sharp pain that begins around the navel and shifts to the lower right abdomen, pain that worsens with coughing or walking, nausea, vomiting, loss of appetite, low-grade fever",
+        "treatment":"emergency surgical removal of the appendix (appendectomy), antibiotics",
+        "symptoms_normalized":"sudden sharp pain that begins around the navel and shifts to the lower right abdomen, pain that worsens with cough or walking, nausea, vomiting, loss of appetite, low-grade fever",
+        "normalized_symptoms_list":[
+            "sudden sharp pain that begins around the navel and shifts to the lower right abdomen",
+            "pain that worsens with cough or walking",
+            "nausea",
+            "vomiting",
+            "loss of appetite",
+            "low-grade fever"
+        ]
+    },
+    {
+        "disease":"Gallstones (Cholelithiasis)",
+        "symptoms":"sudden and severe pain in the upper right abdomen, pain between shoulder blades, nausea, vomiting, indigestion, fever",
+        "treatment":"pain management, cholecystectomy (gallbladder removal surgery), medication to dissolve stones",
+        "symptoms_normalized":"sudden and severe pain in the upper right abdomen, pain between shoulder blades, nausea, vomiting, indigestion, fever",
+        "normalized_symptoms_list":[
+            "sudden and severe pain in the upper right abdomen",
+            "pain between shoulder blades",
+            "nausea",
+            "vomiting",
+            "indigestion",
+            "fever"
+        ]
+    },
+    {
+        "disease":"Kidney Stones (Nephrolithiasis)",
+        "symptoms":"severe, sharp pain in the side and back below the ribs, pain that radiates to the lower abdomen and groin, painful urination, pink\/red\/brown urine, nausea and vomiting",
+        "treatment":"pain medication, hydration to pass stones, medical procedures like lithotripsy or ureteroscopy to break up or remove stones",
+        "symptoms_normalized":"severe, sharp pain in the side and back below the ribs, pain that radiates to the lower abdomen and groin, painful urination, pink\/red\/brown urine, nausea and vomiting",
+        "normalized_symptoms_list":[
+            "severe",
+            "sharp pain in the side and back below the ribs",
+            "pain that radiates to the lower abdomen and groin",
+            "painful urination",
+            "pink\/red\/brown urine",
+            "nausea and vomiting"
+        ]
+    },
+    {
+        "disease":"Anemia (Iron Deficiency)",
+        "symptoms":"extreme fatigue, weakness, pale skin, shortness of breath, dizziness, headache, cold hands and feet, brittle nails",
+        "treatment":"iron supplements, consuming iron-rich foods (red meat, spinach), addressing the underlying cause of blood loss",
+        "symptoms_normalized":"extreme fatigue, weakness, pale skin, shortness of breath, dizziness, headache, cold hands and feet, brittle nails",
+        "normalized_symptoms_list":[
+            "extreme fatigue",
+            "weakness",
+            "pale skin",
+            "shortness of breath",
+            "dizziness",
+            "headache",
+            "cold hands and feet",
+            "brittle nails"
+        ]
+    },
+    {
+        "disease":"Hypothyroidism",
+        "symptoms":"unexplained fatigue, weight gain, increased sensitivity to cold, constipation, dry skin, thinning hair, depression, muscle weakness",
+        "treatment":"thyroid hormone replacement therapy (levothyroxine)",
+        "symptoms_normalized":"unexplained fatigue, weight gain, increased sensitivity to cold, constipation, dry skin, thinning hair, depression, muscle weakness",
+        "normalized_symptoms_list":[
+            "unexplained fatigue",
+            "weight gain",
+            "increased sensitivity to cold",
+            "constipation",
+            "dry skin",
+            "thinning hair",
+            "depression",
+            "muscle weakness"
+        ]
+    },
+    {
+        "disease":"Hyperthyroidism",
+        "symptoms":"unintentional weight loss, rapid or irregular heartbeat (palpitations), anxiety and irritability, tremors in hands, heat intolerance, increased sweating, frequent bowel movements",
+        "treatment":"anti-thyroid medications, radioactive iodine therapy, beta-blockers, surgery",
+        "symptoms_normalized":"unintentional weight loss, rapid or irregular heartbeat (palpitations), anxiety and irritability, tremors in hands, heat intolerance, increased sweating, diarrhea",
+        "normalized_symptoms_list":[
+            "unintentional weight loss",
+            "rapid or irregular heartbeat (palpitations)",
+            "anxiety and irritability",
+            "tremors in hands",
+            "heat intolerance",
+            "increased sweating",
+            "diarrhea"
+        ]
+    },
+    {
+        "disease":"Acne Vulgaris",
+        "symptoms":"pimples, blackheads, whiteheads on face\/neck\/chest\/back, oily skin, cysts or nodules in severe cases",
+        "treatment":"topical treatments (retinoids, benzoyl peroxide, salicylic acid), oral medications (antibiotics, isotretinoin), good skincare hygiene",
+        "symptoms_normalized":"pimples, blackheads, whiteheads on face\/neck\/chest\/back, oily skin, cysts or nodules in severe cases",
+        "normalized_symptoms_list":[
+            "pimples",
+            "blackheads",
+            "whiteheads on face\/neck\/chest\/back",
+            "oily skin",
+            "cysts or nodules in severe cases"
+        ]
+    },
+    {
+        "disease":"Eczema (Atopic Dermatitis)",
+        "symptoms":"dry, itchy, red, and inflamed skin, small raised bumps that may leak fluid, thickened or cracked skin",
+        "treatment":"moisturizers and emollients, topical corticosteroids, antihistamines for itching, avoiding triggers",
+        "symptoms_normalized":"dry, itchy, red, and inflamed skin, small raised bumps that may leak fluid, thickened or cracked skin",
+        "normalized_symptoms_list":[
+            "dry",
+            "itchy",
+            "red",
+            "and inflamed skin",
+            "small raised bumps that may leak fluid",
+            "thickened or cracked skin"
+        ]
+    },
+    {
+        "disease":"Psoriasis",
+        "symptoms":"red, raised patches of skin with silvery scales, itching or burning sensation, dry and cracked skin that may bleed, pitted or thickened nails",
+        "treatment":"topical treatments (corticosteroids, vitamin d analogs), phototherapy (light therapy), systemic medications, biologics",
+        "symptoms_normalized":"red, raised patches of skin with silvery scales, itching or burning sensation, dry and cracked skin that may bleed, pitted or thickened nails",
+        "normalized_symptoms_list":[
+            "red",
+            "raised patches of skin with silvery scales",
+            "itching or burning sensation",
+            "dry and cracked skin that may bleed",
+            "pitted or thickened nails"
+        ]
+    },
+    {
+        "disease":"Osteoarthritis",
+        "symptoms":"aching joint pain that worsens with activity, stiffness (especially in the morning or after rest), reduced range of motion, grating sensation (crepitus)",
+        "treatment":"pain relievers (acetaminophen, nsaids), physical therapy, weight management, joint injections, joint replacement surgery",
+        "symptoms_normalized":"aching joint pain that worsens with activity, stiffness (especially in the morning or after rest), reduced range of motion, grating sensation (crepitus)",
+        "normalized_symptoms_list":[
+            "aching joint pain that worsens with activity",
+            "stiffness (especially in the morning or after rest)",
+            "reduced range of motion",
+            "grating sensation (crepitus)"
+        ]
+    },
+    {
+        "disease":"Rheumatoid Arthritis",
+        "symptoms":"tender, warm, swollen joints (often symmetrical), joint stiffness worse in the morning, fatigue, fever, loss of appetite",
+        "treatment":"disease-modifying antirheumatic drugs (dmards), biologic agents, nsaids, corticosteroids, physical therapy",
+        "symptoms_normalized":"tender, warm, swollen joints (often symmetrical), joint stiffness worse in the morning, fatigue, fever, loss of appetite",
+        "normalized_symptoms_list":[
+            "tender",
+            "warm",
+            "swollen joints (often symmetrical)",
+            "joint stiffness worse in the morning",
+            "fatigue",
+            "fever",
+            "loss of appetite"
+        ]
+    },
+    {
+        "disease":"Fibromyalgia",
+        "symptoms":"widespread musculoskeletal pain described as a dull ache, fatigue, sleep disturbances, cognitive difficulties ('fibro fog'), heightened sensitivity to pain",
+        "treatment":"pain relievers, antidepressants, physical therapy, stress-reduction techniques (meditation, yoga)",
+        "symptoms_normalized":"widespread musculoskeletal pain described as a dull ache, fatigue, sleep disturbances, cognitive difficulties ('fibro fog'), heightened sensitivity to pain",
+        "normalized_symptoms_list":[
+            "widespread musculoskeletal pain described as a dull ache",
+            "fatigue",
+            "sleep disturbances",
+            "cognitive difficulties ('fibro fog')",
+            "heightened sensitivity to pain"
+        ]
+    },
+    {
+        "disease":"Irritable Bowel Syndrome (IBS)",
+        "symptoms":"chronic abdominal pain or cramping, bloating and gas, diarrhea or constipation (or alternating between both), mucus in the stool",
+        "treatment":"dietary changes (low fodmap diet), fiber supplements, stress management, antispasmodic medications",
+        "symptoms_normalized":"chronic abdominal pain or cramping, bloating and gas, diarrhea or constipation (or alternating between both), mucus in the stool",
+        "normalized_symptoms_list":[
+            "chronic abdominal pain or cramping",
+            "bloating and gas",
+            "diarrhea or constipation (or alternating between both)",
+            "mucus in the stool"
+        ]
+    },
+    {
+        "disease":"Acid Reflux (GERD)",
+        "symptoms":"frequent heartburn, regurgitation of food or sour liquid, chest pain, difficulty swallowing, feeling of a lump in your throat, chronic cough",
+        "treatment":"antacids, h2 blockers (famotidine), proton pump inhibitors (omeprazole), lifestyle changes (avoiding trigger foods, not lying down after eating)",
+        "symptoms_normalized":"frequent heartburn, regurgitation of food or sour liquid, chest pain, difficulty swallowing, feeling of a lump in your throat, chronic cough",
+        "normalized_symptoms_list":[
+            "frequent heartburn",
+            "regurgitation of food or sour liquid",
+            "chest pain",
+            "difficulty swallowing",
+            "feeling of a lump in your throat",
+            "chronic cough"
+        ]
+    },
+    {
+        "disease":"Peptic Ulcer Disease",
+        "symptoms":"burning stomach pain, feeling of fullness, bloating or belching, fatty food intolerance, heartburn, nausea",
+        "treatment":"medications to reduce stomach acid (ppis), antibiotics to kill h. pylori bacteria, avoiding nsaids, alcohol, and spicy foods",
+        "symptoms_normalized":"burning stomach pain, feeling of fullness, bloating or belching, fatty food intolerance, heartburn, nausea",
+        "normalized_symptoms_list":[
+            "burning stomach pain",
+            "feeling of fullness",
+            "bloating or belching",
+            "fatty food intolerance",
+            "heartburn",
+            "nausea"
+        ]
+    },
+    {
+        "disease":"Glaucoma",
+        "symptoms":"gradual loss of peripheral (side) vision, tunnel vision in advanced stages, halos around lights, eye pain and redness (in acute angle-closure glaucoma)",
+        "treatment":"prescription eye drops to lower eye pressure, laser therapy, microsurgery",
+        "symptoms_normalized":"gradual loss of peripheral (side) vision, tunnel vision in advanced stages, halos around lights, eye pain and redness (in acute angle-closure glaucoma)",
+        "normalized_symptoms_list":[
+            "gradual loss of peripheral (side) vision",
+            "tunnel vision in advanced stages",
+            "halos around lights",
+            "eye pain and redness (in acute angle-closure glaucoma)"
+        ]
+    },
+    {
+        "disease":"Cataracts",
+        "symptoms":"cloudy or blurred vision, difficulty with vision at night, sensitivity to light and glare, seeing 'halos' around lights, fading or yellowing of colors",
+        "treatment":"surgery to remove the cloudy lens and replace it with a clear, artificial intraocular lens (iol)",
+        "symptoms_normalized":"cloudy or blurred vision, difficulty with vision at night, sensitivity to light and glare, seeing 'halos' around lights, fading or yellowing of colors",
+        "normalized_symptoms_list":[
+            "cloudy or blurred vision",
+            "difficulty with vision at night",
+            "sensitivity to light and glare",
+            "seeing 'halos' around lights",
+            "fading or yellowing of colors"
+        ]
+    },
+    {
+        "disease":"Sinusitis (Sinus Infection)",
+        "symptoms":"pain, tenderness, and pressure around eyes, cheeks, nose, or forehead, nasal congestion, thick, discolored nasal discharge, reduced sense of smell and taste, headache",
+        "treatment":"nasal saline rinses, decongestants, pain relievers, warm compresses, antibiotics (if bacterial and persistent)",
+        "symptoms_normalized":"pain, tenderness, and pressure around eyes, cheeks, nose, or forehead, nasal congestion, thick, discolored runny nose, reduced sense of smell and taste, headache",
+        "normalized_symptoms_list":[
+            "pain",
+            "tenderness",
+            "and pressure around eyes",
+            "cheeks",
+            "nose",
+            "or forehead",
+            "nasal congestion",
+            "thick",
+            "discolored runny nose",
+            "reduced sense of smell and taste",
+            "headache"
+        ]
+    },
+    {
+        "disease":"Bronchitis (Acute)",
+        "symptoms":"persistent cough that produces mucus, chest soreness, fatigue, mild headache, body aches, sore throat",
+        "treatment":"rest, plenty of fluids, humidifier, cough medicine, pain relievers (antibiotics are rarely needed)",
+        "symptoms_normalized":"cough that produces mucus, chest soreness, fatigue, mild headache, muscle aches, sore throat",
+        "normalized_symptoms_list":[
+            "cough that produces mucus",
+            "chest soreness",
+            "fatigue",
+            "mild headache",
+            "muscle aches",
+            "sore throat"
+        ]
+    },
+    {
+        "disease":"Cellulitis",
+        "symptoms":"red, swollen, warm, and painful area of skin, skin may appear pitted like an orange peel, fever, chills, blisters may form",
+        "treatment":"oral or intravenous antibiotics, keeping the affected area elevated and clean",
+        "symptoms_normalized":"red, swollen, warm, and painful area of skin, skin may appear pitted like an orange peel, fever, chills, blisters may form",
+        "normalized_symptoms_list":[
+            "red",
+            "swollen",
+            "warm",
+            "and painful area of skin",
+            "skin may appear pitted like an orange peel",
+            "fever",
+            "chills",
+            "blisters may form"
+        ]
+    },
+    {
+        "disease":"Shingles (Herpes Zoster)",
+        "symptoms":"pain, burning, numbness or tingling, a red rash that begins a few days after the pain, fluid-filled blisters that break open and crust over, itching",
+        "treatment":"antiviral drugs (acyclovir, valacyclovir), pain relievers, topical treatments for itching",
+        "symptoms_normalized":"pain, burning, numbness or tingling, a red rash that begins a few days after the pain, fluid-filled blisters that break open and crust over, itching",
+        "normalized_symptoms_list":[
+            "pain",
+            "burning",
+            "numbness or tingling",
+            "a red rash that begins a few days after the pain",
+            "fluid-filled blisters that break open and crust over",
+            "itching"
+        ]
+    },
+    {
+        "disease":"Lyme Disease",
+        "symptoms":"bull's-eye rash (erythema migrans), fever, chills, fatigue, body aches, headache, neck stiffness",
+        "treatment":"antibiotics (doxycycline, amoxicillin), supportive care for symptoms",
+        "symptoms_normalized":"bull's-eye rash (erythema migrans), fever, chills, fatigue, muscle aches, headache, neck stiffness",
+        "normalized_symptoms_list":[
+            "bull's-eye rash (erythema migrans)",
+            "fever",
+            "chills",
+            "fatigue",
+            "muscle aches",
+            "headache",
+            "neck stiffness"
+        ]
+    },
+    {
+        "disease":"Gout",
+        "symptoms":"sudden, severe attacks of pain, swelling, redness, and tenderness in one or more joints, most often in the big toe",
+        "treatment":"nonsteroidal anti-inflammatory drugs (nsaids), colchicine, corticosteroids, lifestyle changes to lower uric acid",
+        "symptoms_normalized":"sudden, severe attacks of pain, swelling, redness, and tenderness in one or more joints, most often in the big toe",
+        "normalized_symptoms_list":[
+            "sudden",
+            "severe attacks of pain",
+            "swelling",
+            "redness",
+            "and tenderness in one or more joints",
+            "most often in the big toe"
+        ]
+    },
+    {
+        "disease":"Endometriosis",
+        "symptoms":"painful periods (dysmenorrhea), pain with intercourse, pain with bowel movements or urination, excessive bleeding, infertility",
+        "treatment":"pain medication, hormone therapy (birth control pills), surgery to remove endometrial tissue",
+        "symptoms_normalized":"painful periods (dysmenorrhea), pain with intercourse, pain with bowel movements or urination, excessive bleeding, infertility",
+        "normalized_symptoms_list":[
+            "painful periods (dysmenorrhea)",
+            "pain with intercourse",
+            "pain with bowel movements or urination",
+            "excessive bleeding",
+            "infertility"
+        ]
+    },
+    {
+        "disease":"Polycystic Ovary Syndrome (PCOS)",
+        "symptoms":"irregular menstrual periods, excess androgen (male hormone) levels causing excess facial and body hair, severe acne, and male-pattern baldness, polycystic ovaries",
+        "treatment":"lifestyle changes (diet, exercise), hormonal birth control to regulate periods, medications to manage symptoms like hair growth or insulin resistance",
+        "symptoms_normalized":"irregular menstrual periods, excess androgen (male hormone) levels causing excess facial and body hair, severe acne, and male-pattern baldness, polycystic ovaries",
+        "normalized_symptoms_list":[
+            "irregular menstrual periods",
+            "excess androgen (male hormone) levels causing excess facial and body hair",
+            "severe acne",
+            "and male-pattern baldness",
+            "polycystic ovaries"
+        ]
+    },
+    {
+        "disease":"Mononucleosis (Mono)",
+        "symptoms":"extreme fatigue, fever, sore throat, swollen lymph nodes in neck and armpits, headache, skin rash, swollen spleen",
+        "treatment":"rest, hydration, over-the-counter pain relievers (avoid aspirin), gargling with salt water",
+        "symptoms_normalized":"extreme fatigue, fever, sore throat, swollen lymph nodes in neck and armpits, headache, rash, swollen spleen",
+        "normalized_symptoms_list":[
+            "extreme fatigue",
+            "fever",
+            "sore throat",
+            "swollen lymph nodes in neck and armpits",
+            "headache",
+            "rash",
+            "swollen spleen"
+        ]
+    },
+    {
+        "disease":"Crohn's Disease",
+        "symptoms":"diarrhea, fever, fatigue, abdominal pain and cramping, blood in stool, mouth sores, reduced appetite and weight loss",
+        "treatment":"anti-inflammatory drugs, immune system suppressors, biologics, nutritional therapy, surgery",
+        "symptoms_normalized":"diarrhea, fever, fatigue, abdominal pain and cramping, blood in stool, mouth sores, reduced appetite and weight loss",
+        "normalized_symptoms_list":[
+            "diarrhea",
+            "fever",
+            "fatigue",
+            "abdominal pain and cramping",
+            "blood in stool",
+            "mouth sores",
+            "reduced appetite and weight loss"
+        ]
+    },
+    {
+        "disease":"Ulcerative Colitis",
+        "symptoms":"diarrhea, often with blood or pus, abdominal pain and cramping, rectal pain, urgency to defecate, fatigue, weight loss",
+        "treatment":"anti-inflammatory drugs (5-asa), corticosteroids, immune suppressors, biologics, surgery (colectomy)",
+        "symptoms_normalized":"diarrhea, often with blood or pus, abdominal pain and cramping, rectal pain, urgency to defecate, fatigue, weight loss",
+        "normalized_symptoms_list":[
+            "diarrhea",
+            "often with blood or pus",
+            "abdominal pain and cramping",
+            "rectal pain",
+            "urgency to defecate",
+            "fatigue",
+            "weight loss"
+        ]
+    },
+    {
+        "disease":"Major Depressive Disorder",
+        "symptoms":"persistent sad or empty mood, loss of interest or pleasure in activities, significant weight change, insomnia or hypersomnia, fatigue, feelings of worthlessness, difficulty concentrating, suicidal thoughts",
+        "treatment":"psychotherapy (cbt, interpersonal therapy), antidepressant medications (ssris, snris), lifestyle changes",
+        "symptoms_normalized":"persistent sad or empty mood, loss of interest or pleasure in activities, significant weight change, insomnia or hypersomnia, fatigue, feelings of worthlessness, difficulty concentrating, suicidal thoughts",
+        "normalized_symptoms_list":[
+            "persistent sad or empty mood",
+            "loss of interest or pleasure in activities",
+            "significant weight change",
+            "insomnia or hypersomnia",
+            "fatigue",
+            "feelings of worthlessness",
+            "difficulty concentrating",
+            "suicidal thoughts"
+        ]
+    },
+    {
+        "disease":"Generalized Anxiety Disorder",
+        "symptoms":"excessive, uncontrollable worry about various topics, restlessness, feeling on edge, easily fatigued, difficulty concentrating, irritability, muscle tension, sleep disturbance",
+        "treatment":"psychotherapy (cbt), anti-anxiety medications (ssris, buspirone), relaxation techniques",
+        "symptoms_normalized":"excessive, uncontrollable worry about various topics, restlessness, feeling on edge, easily fatigued, difficulty concentrating, irritability, muscle tension, sleep disturbance",
+        "normalized_symptoms_list":[
+            "excessive",
+            "uncontrollable worry about various topics",
+            "restlessness",
+            "feeling on edge",
+            "easily fatigued",
+            "difficulty concentrating",
+            "irritability",
+            "muscle tension",
+            "sleep disturbance"
+        ]
+    },
+    {
+        "disease":"Bipolar Disorder",
+        "symptoms":"episodes of mania (high energy, racing thoughts, impulsivity) alternating with episodes of depression (low energy, sadness, hopelessness)",
+        "treatment":"mood stabilizers (lithium, valproic acid), antipsychotics, antidepressants (used with caution), psychotherapy",
+        "symptoms_normalized":"episodes of mania (high energy, racing thoughts, impulsivity) alternating with episodes of depression (low energy, sadness, hopelessness)",
+        "normalized_symptoms_list":[
+            "episodes of mania (high energy",
+            "racing thoughts",
+            "impulsivity) alternating with episodes of depression (low energy",
+            "sadness",
+            "hopelessness)"
+        ]
+    },
+    {
+        "disease":"Obsessive-Compulsive Disorder (OCD)",
+        "symptoms":"recurrent, unwanted thoughts (obsessions) and repetitive behaviors (compulsions) performed to reduce anxiety, such as hand washing, checking, or counting",
+        "treatment":"psychotherapy (exposure and response prevention - erp), ssris",
+        "symptoms_normalized":"recurrent, unwanted thoughts (obsessions) and repetitive behaviors (compulsions) performed to reduce anxiety, such as hand washing, checking, or counting",
+        "normalized_symptoms_list":[
+            "recurrent",
+            "unwanted thoughts (obsessions) and repetitive behaviors (compulsions) performed to reduce anxiety",
+            "such as hand washing",
+            "checking",
+            "or counting"
+        ]
+    },
+    {
+        "disease":"Panic Disorder",
+        "symptoms":"recurrent unexpected panic attacks, which are abrupt surges of intense fear or discomfort, followed by persistent concern about having more attacks",
+        "treatment":"psychotherapy (cbt), ssris, snris, benzodiazepines (for short-term use)",
+        "symptoms_normalized":"recurrent unexpected panic attacks, which are abrupt surges of intense fear or discomfort, followed by persistent concern about having more attacks",
+        "normalized_symptoms_list":[
+            "recurrent unexpected panic attacks",
+            "which are abrupt surges of intense fear or discomfort",
+            "followed by persistent concern about having more attacks"
+        ]
+    },
+    {
+        "disease":"Schizophrenia",
+        "symptoms":"hallucinations (seeing or hearing things that aren't there), delusions (false beliefs), disorganized speech, disorganized or catatonic behavior, negative symptoms (lack of emotion, social withdrawal)",
+        "treatment":"antipsychotic medications, psychotherapy, social skills training, family support",
+        "symptoms_normalized":"hallucinations (seeing or hearing things that aren't there), delusions (false beliefs), disorganized speech, disorganized or catatonic behavior, negative symptoms (lack of emotion, social withdrawal)",
+        "normalized_symptoms_list":[
+            "hallucinations (seeing or hearing things that aren't there)",
+            "delusions (false beliefs)",
+            "disorganized speech",
+            "disorganized or catatonic behavior",
+            "negative symptoms (lack of emotion",
+            "social withdrawal)"
+        ]
+    },
+    {
+        "disease":"Parkinson's Disease",
+        "symptoms":"tremor at rest (pill-rolling), slowness of movement (bradykinesia), limb rigidity, gait and balance problems, shuffling walk",
+        "treatment":"medications to increase dopamine (levodopa), physical and occupational therapy, deep brain stimulation",
+        "symptoms_normalized":"tremor at rest (pill-rolling), slowness of movement (bradykinesia), limb rigidity, gait and balance problems, shuffling walk",
+        "normalized_symptoms_list":[
+            "tremor at rest (pill-rolling)",
+            "slowness of movement (bradykinesia)",
+            "limb rigidity",
+            "gait and balance problems",
+            "shuffling walk"
+        ]
+    },
+    {
+        "disease":"Alzheimer's Disease",
+        "symptoms":"progressive memory loss, difficulty with problem-solving and planning, confusion with time or place, trouble understanding visual images, problems with words in speaking or writing, personality changes",
+        "treatment":"medications to manage symptoms (cholinesterase inhibitors, memantine), supportive care, creating a safe environment",
+        "symptoms_normalized":"progressive memory loss, difficulty with problem-solving and planning, confusion with time or place, trouble understanding visual images, problems with words in speaking or writing, personality changes",
+        "normalized_symptoms_list":[
+            "progressive memory loss",
+            "difficulty with problem-solving and planning",
+            "confusion with time or place",
+            "trouble understanding visual images",
+            "problems with words in speaking or writing",
+            "personality changes"
+        ]
+    },
+    {
+        "disease":"Epilepsy",
+        "symptoms":"recurrent, unprovoked seizures, which can manifest as temporary confusion, staring spells, uncontrollable jerking movements, or loss of consciousness",
+        "treatment":"anti-seizure medications, vagus nerve stimulation, ketogenic diet, surgery to remove seizure focus",
+        "symptoms_normalized":"recurrent, unprovoked seizures, which can manifest as temporary confusion, staring spells, uncontrollable jerking movements, or loss of consciousness",
+        "normalized_symptoms_list":[
+            "recurrent",
+            "unprovoked seizures",
+            "which can manifest as temporary confusion",
+            "staring spells",
+            "uncontrollable jerking movements",
+            "or loss of consciousness"
+        ]
+    },
+    {
+        "disease":"Multiple Sclerosis (MS)",
+        "symptoms":"numbness or weakness in one or more limbs, partial or complete loss of vision, tingling or pain, electric-shock sensations with neck movements, fatigue, dizziness, problems with bowel and bladder function",
+        "treatment":"disease-modifying therapies (dmts), corticosteroids for relapses, physical therapy, symptom management",
+        "symptoms_normalized":"numbness or weakness in one or more limbs, partial or complete loss of vision, tingling or pain, electric-shock sensations with neck movements, fatigue, dizziness, problems with bowel and bladder function",
+        "normalized_symptoms_list":[
+            "numbness or weakness in one or more limbs",
+            "partial or complete loss of vision",
+            "tingling or pain",
+            "electric-shock sensations with neck movements",
+            "fatigue",
+            "dizziness",
+            "problems with bowel and bladder function"
+        ]
+    },
+    {
+        "disease":"Systemic Lupus Erythematosus (Lupus)",
+        "symptoms":"fatigue, fever, joint pain, butterfly-shaped rash on the face, skin lesions that worsen with sun exposure, shortness of breath, chest pain, dry eyes",
+        "treatment":"anti-inflammatory drugs (nsaids), antimalarial drugs (hydroxychloroquine), corticosteroids, immunosuppressants",
+        "symptoms_normalized":"fatigue, fever, joint pain, butterfly-shaped rash on the face, skin lesions that worsen with sun exposure, shortness of breath, chest pain, dry eyes",
+        "normalized_symptoms_list":[
+            "fatigue",
+            "fever",
+            "joint pain",
+            "butterfly-shaped rash on the face",
+            "skin lesions that worsen with sun exposure",
+            "shortness of breath",
+            "chest pain",
+            "dry eyes"
+        ]
+    },
+    {
+        "disease":"Meningitis (Bacterial)",
+        "symptoms":"sudden high fever, severe, persistent headache, stiff neck (nuchal rigidity), nausea, vomiting, confusion, sensitivity to light (photophobia)",
+        "treatment":"immediate emergency medical attention, high-dose intravenous antibiotics",
+        "symptoms_normalized":"sudden high fever, severe, persistent headache, stiff neck (nuchal rigidity), nausea, vomiting, confusion, sensitivity to light (photophobia)",
+        "normalized_symptoms_list":[
+            "sudden high fever",
+            "severe",
+            "persistent headache",
+            "stiff neck (nuchal rigidity)",
+            "nausea",
+            "vomiting",
+            "confusion",
+            "sensitivity to light (photophobia)"
+        ]
+    },
+    {
+        "disease":"Sepsis",
+        "symptoms":"high heart rate, low blood pressure, fever or low body temperature, shivering, confusion or disorientation, shortness of breath, extreme pain or discomfort, clammy or sweaty skin",
+        "treatment":"immediate emergency medical attention, broad-spectrum antibiotics, intravenous fluids, vasopressors to support blood pressure",
+        "symptoms_normalized":"high heart rate, low blood pressure, fever or low body temperature, chills, confusion or disorientation, shortness of breath, extreme pain or discomfort, clammy or sweaty skin",
+        "normalized_symptoms_list":[
+            "high heart rate",
+            "low blood pressure",
+            "fever or low body temperature",
+            "chills",
+            "confusion or disorientation",
+            "shortness of breath",
+            "extreme pain or discomfort",
+            "clammy or sweaty skin"
+        ]
+    },
+    {
+        "disease":"Chickenpox (Varicella)",
+        "symptoms":"itchy rash of small, fluid-filled blisters, fever, loss of appetite, headache, tiredness",
+        "treatment":"supportive care, calamine lotion and oatmeal baths for itching, pain relievers (avoid aspirin in children), antiviral medication for high-risk individuals",
+        "symptoms_normalized":"itchy rash of small, fluid-filled blisters, fever, loss of appetite, headache, fatigue",
+        "normalized_symptoms_list":[
+            "itchy rash of small",
+            "fluid-filled blisters",
+            "fever",
+            "loss of appetite",
+            "headache",
+            "fatigue"
+        ]
+    },
+    {
+        "disease":"Pancreatitis (Acute)",
+        "symptoms":"upper abdominal pain that radiates to your back, abdominal pain that feels worse after eating, fever, rapid pulse, nausea, vomiting, tenderness when touching the abdomen",
+        "treatment":"hospitalization for iv fluids, pain medication, bowel rest (no food by mouth), treating the underlying cause",
+        "symptoms_normalized":"upper abdominal pain that radiates to your back, abdominal pain that feels worse after eating, fever, rapid pulse, nausea, vomiting, tenderness when touching the abdomen",
+        "normalized_symptoms_list":[
+            "upper abdominal pain that radiates to your back",
+            "abdominal pain that feels worse after eating",
+            "fever",
+            "rapid pulse",
+            "nausea",
+            "vomiting",
+            "tenderness when touching the abdomen"
+        ]
+    },
+    {
+        "disease":"Deep Vein Thrombosis (DVT)",
+        "symptoms":"swelling in the affected leg, pain or tenderness in the leg, a feeling of warmth in the area, red or discolored skin on the leg",
+        "treatment":"anticoagulant medications (blood thinners), thrombolytics, compression stockings",
+        "symptoms_normalized":"swelling in the affected leg, pain or tenderness in the leg, a feeling of warmth in the area, red or discolored skin on the leg",
+        "normalized_symptoms_list":[
+            "swelling in the affected leg",
+            "pain or tenderness in the leg",
+            "a feeling of warmth in the area",
+            "red or discolored skin on the leg"
+        ]
+    },
+    {
+        "disease":"Peripheral Artery Disease (PAD)",
+        "symptoms":"painful cramping in your hip, thigh or calf muscles after activity (claudication), leg numbness or weakness, coldness in your lower leg or foot, sores on your toes, feet or legs that won't heal",
+        "treatment":"lifestyle changes (smoking cessation, exercise), medications to lower cholesterol and blood pressure, angioplasty or bypass surgery",
+        "symptoms_normalized":"painful cramping in your hip, thigh or calf muscles after activity (claudication), leg numbness or weakness, coldness in your lower leg or foot, sores on your toes, feet or legs that won't heal",
+        "normalized_symptoms_list":[
+            "painful cramping in your hip",
+            "thigh or calf muscles after activity (claudication)",
+            "leg numbness or weakness",
+            "coldness in your lower leg or foot",
+            "sores on your toes",
+            "feet or legs that won't heal"
+        ]
+    },
+    {
+        "disease":"Rosacea",
+        "symptoms":"facial redness and flushing, visible small blood vessels, red bumps or pimples, eye irritation, thickened skin (rhinophyma)",
+        "treatment":"topical medications, oral antibiotics, laser therapy, avoiding triggers (sun, spicy food, alcohol)",
+        "symptoms_normalized":"facial redness and flushing, visible small blood vessels, red bumps or pimples, eye irritation, thickened skin (rhinophyma)",
+        "normalized_symptoms_list":[
+            "facial redness and flushing",
+            "visible small blood vessels",
+            "red bumps or pimples",
+            "eye irritation",
+            "thickened skin (rhinophyma)"
+        ]
+    },
+    {
+        "disease":"Scabies",
+        "symptoms":"intense itching, especially at night, pimple-like rash, tiny burrows made of small blisters or bumps on the skin, especially in skin folds",
+        "treatment":"prescription scabicide creams or lotions (permethrin), oral medication (ivermectin), washing all linens and clothing in hot water",
+        "symptoms_normalized":"intense itching, especially at night, pimple-like rash, tiny burrows made of small blisters or bumps on the skin, especially in skin folds",
+        "normalized_symptoms_list":[
+            "intense itching",
+            "especially at night",
+            "pimple-like rash",
+            "tiny burrows made of small blisters or bumps on the skin",
+            "especially in skin folds"
+        ]
+    },
+    {
+        "disease":"Vitamin B12 Deficiency Anemia",
+        "symptoms":"fatigue, weakness, pale or jaundiced skin, shortness of breath, dizziness, tingling or numbness in hands and feet, difficulty with balance, sore tongue, cognitive problems",
+        "treatment":"vitamin b12 injections or high-dose oral supplements",
+        "symptoms_normalized":"fatigue, weakness, pale or jaundiced skin, shortness of breath, dizziness, tingling or numbness in hands and feet, difficulty with balance, sore tongue, cognitive problems",
+        "normalized_symptoms_list":[
+            "fatigue",
+            "weakness",
+            "pale or jaundiced skin",
+            "shortness of breath",
+            "dizziness",
+            "tingling or numbness in hands and feet",
+            "difficulty with balance",
+            "sore tongue",
+            "cognitive problems"
+        ]
+    },
+    {
+        "disease":"Vitamin D Deficiency",
+        "symptoms":"often asymptomatic, bone pain, muscle weakness, fatigue, mood changes",
+        "treatment":"vitamin d supplements, increased sun exposure, consuming vitamin d-rich foods",
+        "symptoms_normalized":"often asymptomatic, bone pain, muscle weakness, fatigue, mood changes",
+        "normalized_symptoms_list":[
+            "often asymptomatic",
+            "bone pain",
+            "muscle weakness",
+            "fatigue",
+            "mood changes"
+        ]
+    },
+    {
+        "disease":"Tetanus",
+        "symptoms":"jaw cramping (lockjaw), sudden, involuntary muscle spasms, painful muscle stiffness all over the body, trouble swallowing, seizures",
+        "treatment":"emergency medical care, tetanus immune globulin, tetanus vaccine, muscle relaxants, antibiotics",
+        "symptoms_normalized":"jaw cramping (lockjaw), sudden, involuntary muscle spasms, painful muscle stiffness all over the body, trouble swallowing, seizures",
+        "normalized_symptoms_list":[
+            "jaw cramping (lockjaw)",
+            "sudden",
+            "involuntary muscle spasms",
+            "painful muscle stiffness all over the body",
+            "trouble swallowing",
+            "seizures"
+        ]
+    },
+    {
+        "disease":"Norovirus Infection",
+        "symptoms":"sudden onset of severe vomiting, watery diarrhea, nausea, stomach cramps, low-grade fever, muscle pain",
+        "treatment":"aggressive rehydration, rest, isolation to prevent spreading, anti-nausea medication in some cases",
+        "symptoms_normalized":"sudden onset of severe vomiting, watery diarrhea, nausea, stomach cramps, low-grade fever, muscle pain",
+        "normalized_symptoms_list":[
+            "sudden onset of severe vomiting",
+            "watery diarrhea",
+            "nausea",
+            "stomach cramps",
+            "low-grade fever",
+            "muscle pain"
+        ]
+    },
+    {
+        "disease":"Influenza (Seasonal Flu)",
+        "symptoms":"abrupt onset of fever, myalgia (muscle aches), headache, malaise, non-productive cough, sore throat, and rhinitis",
+        "treatment":"supportive care including rest and fluids, analgesics, antiviral medications like oseltamivir",
+        "symptoms_normalized":"abrupt onset of fever, muscle aches (muscle aches), headache, malaise, dry cough, sore throat, and rhinitis",
+        "normalized_symptoms_list":[
+            "abrupt onset of fever",
+            "muscle aches (muscle aches)",
+            "headache",
+            "malaise",
+            "dry cough",
+            "sore throat",
+            "and rhinitis"
+        ]
+    },
+    {
+        "disease":"Food Poisoning (E. coli)",
+        "symptoms":"watery diarrhea which may become bloody, abdominal cramps, nausea and vomiting, sometimes fever",
+        "treatment":"rehydration is critical, rest, avoid anti-diarrheal medication as it can slow toxin removal, medical attention if bloody diarrhea or severe dehydration",
+        "symptoms_normalized":"watery diarrhea which may become bloody, abdominal cramps, nausea and vomiting, sometimes fever",
+        "normalized_symptoms_list":[
+            "watery diarrhea which may become bloody",
+            "abdominal cramps",
+            "nausea and vomiting",
+            "sometimes fever"
+        ]
+    },
+    {
+        "disease":"Strep Throat",
+        "symptoms":"sudden sore throat, pain when swallowing, fever, red and swollen tonsils sometimes with white patches, tiny red spots on the roof of the mouth, swollen lymph nodes in the neck",
+        "treatment":"antibiotics (penicillin or amoxicillin), pain relievers, rest, hydration",
+        "symptoms_normalized":"sudden sore throat, sore throat, fever, red and swollen tonsils sometimes with white patches, tiny red spots on the roof of the mouth, swollen lymph nodes in the neck",
+        "normalized_symptoms_list":[
+            "sudden sore throat",
+            "sore throat",
+            "fever",
+            "red and swollen tonsils sometimes with white patches",
+            "tiny red spots on the roof of the mouth",
+            "swollen lymph nodes in the neck"
+        ]
+    },
+    {
+        "disease":"Tonsillitis",
+        "symptoms":"swollen, red tonsils, white or yellow coating on tonsils, sore throat, difficulty swallowing, fever, swollen neck glands",
+        "treatment":"rest, fluids, salt water gargles, pain relievers, antibiotics if bacterial",
+        "symptoms_normalized":"swollen, red tonsils, white or yellow coating on tonsils, sore throat, difficulty swallowing, fever, swollen neck glands",
+        "normalized_symptoms_list":[
+            "swollen",
+            "red tonsils",
+            "white or yellow coating on tonsils",
+            "sore throat",
+            "difficulty swallowing",
+            "fever",
+            "swollen neck glands"
+        ]
+    },
+    {
+        "disease":"Ear Infection (Otitis Media)",
+        "symptoms":"ear pain, fluid drainage from the ear, diminished hearing, fever, fussiness in infants",
+        "treatment":"pain relievers, warm compress, antibiotics if bacterial and persistent",
+        "symptoms_normalized":"ear pain, fluid drainage from the ear, diminished hearing, fever, fussiness in infants",
+        "normalized_symptoms_list":[
+            "ear pain",
+            "fluid drainage from the ear",
+            "diminished hearing",
+            "fever",
+            "fussiness in infants"
+        ]
+    },
+    {
+        "disease":"Sleep Apnea",
+        "symptoms":"loud snoring, episodes in which you stop breathing during sleep, gasping for air during sleep, waking up with a dry mouth, morning headache, excessive daytime sleepiness (hypersomnia)",
+        "treatment":"continuous positive airway pressure (cpap) machine, lifestyle changes (weight loss), oral appliances, surgery",
+        "symptoms_normalized":"loud snoring, episodes in which you stop breathing during sleep, gasping for air during sleep, waking up with a dry mouth, morning headache, excessive daytime sleepiness (hypersomnia)",
+        "normalized_symptoms_list":[
+            "loud snoring",
+            "episodes in which you stop breathing during sleep",
+            "gasping for air during sleep",
+            "waking up with a dry mouth",
+            "morning headache",
+            "excessive daytime sleepiness (hypersomnia)"
+        ]
+    },
+    {
+        "disease":"Restless Legs Syndrome (RLS)",
+        "symptoms":"an uncontrollable urge to move the legs, usually because of an uncomfortable sensation, symptoms worsen at rest and in the evening",
+        "treatment":"lifestyle changes (regular exercise, sleep schedule), iron supplements if deficient, medications affecting dopamine",
+        "symptoms_normalized":"an uncontrollable urge to move the legs, usually because of an uncomfortable sensation, symptoms worsen at rest and in the evening",
+        "normalized_symptoms_list":[
+            "an uncontrollable urge to move the legs",
+            "usually because of an uncomfortable sensation",
+            "symptoms worsen at rest and in the evening"
+        ]
+    },
+    {
+        "disease":"Insomnia",
+        "symptoms":"difficulty falling asleep, difficulty staying asleep, waking up too early, not feeling well-rested after a night's sleep, daytime tiredness or sleepiness, irritability",
+        "treatment":"cognitive behavioral therapy for insomnia (cbt-i), sleep hygiene improvement, prescription sleep medications (short-term)",
+        "symptoms_normalized":"difficulty falling asleep, difficulty staying asleep, waking up too early, not feeling well-rested after a night's sleep, daytime fatigue or sleepiness, irritability",
+        "normalized_symptoms_list":[
+            "difficulty falling asleep",
+            "difficulty staying asleep",
+            "waking up too early",
+            "not feeling well-rested after a night's sleep",
+            "daytime fatigue or sleepiness",
+            "irritability"
+        ]
+    },
+    {
+        "disease":"Carpal Tunnel Syndrome",
+        "symptoms":"numbness, tingling, and pain in the hand and forearm, particularly in the thumb, index, and middle fingers, weakness in hand strength",
+        "treatment":"wrist splinting, nsaids, corticosteroid injections, avoiding repetitive wrist motions, surgery in severe cases",
+        "symptoms_normalized":"numbness, tingling, and pain in the hand and forearm, particularly in the thumb, index, and middle fingers, weakness in hand strength",
+        "normalized_symptoms_list":[
+            "numbness",
+            "tingling",
+            "and pain in the hand and forearm",
+            "particularly in the thumb",
+            "index",
+            "and middle fingers",
+            "weakness in hand strength"
+        ]
+    },
+    {
+        "disease":"Bursitis",
+        "symptoms":"joint pain, stiffness, and swelling, pain with movement or pressure, redness and warmth over the joint",
+        "treatment":"rest, ice, pain relievers, corticosteroid injections, physical therapy",
+        "symptoms_normalized":"joint pain, stiffness, and swelling, pain with movement or pressure, redness and warmth over the joint",
+        "normalized_symptoms_list":[
+            "joint pain",
+            "stiffness",
+            "and swelling",
+            "pain with movement or pressure",
+            "redness and warmth over the joint"
+        ]
+    },
+    {
+        "disease":"Tendinitis",
+        "symptoms":"a dull ache, tenderness, and mild swelling near the affected tendon, pain that worsens with activity",
+        "treatment":"rest, ice, compression, elevation (rice), pain relievers, physical therapy",
+        "symptoms_normalized":"a dull ache, tenderness, and mild swelling near the affected tendon, pain that worsens with activity",
+        "normalized_symptoms_list":[
+            "a dull ache",
+            "tenderness",
+            "and mild swelling near the affected tendon",
+            "pain that worsens with activity"
+        ]
+    },
+    {
+        "disease":"Plantar Fasciitis",
+        "symptoms":"stabbing pain in the bottom of your foot near the heel, pain is usually worst with the first few steps after awakening",
+        "treatment":"rest, ice, stretching exercises, supportive shoes or orthotics, physical therapy",
+        "symptoms_normalized":"stabbing pain in the bottom of your foot near the heel, pain is usually worst with the first few steps after awakening",
+        "normalized_symptoms_list":[
+            "stabbing pain in the bottom of your foot near the heel",
+            "pain is usually worst with the first few steps after awakening"
+        ]
+    },
+    {
+        "disease":"Conjunctivitis (Pink Eye)",
+        "symptoms":"redness in one or both eyes, itchiness in one or both eyes, a gritty feeling in one or both eyes, discharge that forms a crust overnight, tearing",
+        "treatment":"antibiotic eye drops (if bacterial), antihistamine eye drops (if allergic), artificial tears, warm or cool compresses",
+        "symptoms_normalized":"redness in one or both eyes, itchiness in one or both eyes, a gritty feeling in one or both eyes, discharge that forms a crust overnight, tearing",
+        "normalized_symptoms_list":[
+            "redness in one or both eyes",
+            "itchiness in one or both eyes",
+            "a gritty feeling in one or both eyes",
+            "discharge that forms a crust overnight",
+            "tearing"
+        ]
+    },
+    {
+        "disease":"Stye",
+        "symptoms":"a red, painful lump near the edge of the eyelid that looks like a boil or a pimple, swelling of the eyelid, tearing",
+        "treatment":"warm compresses, gentle massage, antibiotic ointment (if persistent), avoid squeezing or popping",
+        "symptoms_normalized":"a red, painful lump near the edge of the eyelid that looks like a boil or a pimple, swelling of the eyelid, tearing",
+        "normalized_symptoms_list":[
+            "a red",
+            "painful lump near the edge of the eyelid that looks like a boil or a pimple",
+            "swelling of the eyelid",
+            "tearing"
+        ]
+    },
+    {
+        "disease":"Hand, Foot, and Mouth Disease",
+        "symptoms":"fever, sore throat, feeling unwell, painful, red, blister-like lesions on the tongue, gums, and inside of the cheeks, a red rash on the hands and soles of the feet",
+        "treatment":"supportive care, pain relievers, numbing mouthwashes or sprays, hydration",
+        "symptoms_normalized":"fever, sore throat, feeling unwell, painful, red, blister-like lesions on the tongue, gums, and inside of the cheeks, a red rash on the hands and soles of the feet",
+        "normalized_symptoms_list":[
+            "fever",
+            "sore throat",
+            "feeling unwell",
+            "painful",
+            "red",
+            "blister-like lesions on the tongue",
+            "gums",
+            "and inside of the cheeks",
+            "a red rash on the hands and soles of the feet"
+        ]
+    },
+    {
+        "disease":"Celiac Disease",
+        "symptoms":"diarrhea, fatigue, weight loss, bloating and gas, abdominal pain, nausea, constipation, skin rash (dermatitis herpetiformis)",
+        "treatment":"strict lifelong gluten-free diet, vitamin and mineral supplements",
+        "symptoms_normalized":"diarrhea, fatigue, weight loss, bloating and gas, abdominal pain, nausea, constipation, rash (dermatitis herpetiformis)",
+        "normalized_symptoms_list":[
+            "diarrhea",
+            "fatigue",
+            "weight loss",
+            "bloating and gas",
+            "abdominal pain",
+            "nausea",
+            "constipation",
+            "rash (dermatitis herpetiformis)"
+        ]
+    }
+]
