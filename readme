@@ -1,0 +1,96 @@
+# AI Symptom Diagnosis
+
+This project provides a web application that uses AI to diagnose potential diseases based on user-provided symptoms. It suggests treatments and provides a confidence score for the diagnosis.
+
+## Features
+
+*   **AI-Powered Diagnosis:** Utilizes AI models to understand symptom descriptions and match them to diseases.
+*   **Hybrid Matching:** Combines semantic similarity with keyword overlap for more robust predictions.
+*   **User-Friendly Interface:** Simple web form for symptom input.
+*   **Feedback Mechanism:** Users can provide feedback on the accuracy of diagnoses, aiding in future improvements.
+*   **Autocomplete Suggestions:** Helps users input symptoms consistently.
+*   **Data Cleaning:** Preprocesses symptom data for better model performance.
+*   **Error Handling:** Graceful handling of invalid inputs and server errors.
+
+## Project Structure
+Markdown
+symptom_checker_project/
+├── app.py # Flask application setup and routes
+├── logic.py # SymptomChecker class and AI logic
+├── data_utils.py # Data cleaning and normalization functions
+├── requirements.txt # Python dependencies
+├── setup_and_run.bat # Batch script for local setup and running
+├── data/ # Directory for CSV data
+│ ├── diseases.csv # Original dataset
+│ └── cleaned_diseases.csv # Processed dataset
+├── static/ # Static assets (CSS, JS)
+│ ├── css/
+│ │ └── style.css
+│ └── js/
+│ └── main.js # JavaScript for interactivity and feedback
+├── templates/ # HTML templates
+│ ├── index.html
+│ ├── 404.html
+│ └── 500.html
+Generated code
+## Setup and Installation
+
+**Prerequisites:**
+
+*   **Python:** Ensure you have Python 3.7+ installed. You can download it from [python.org](https://www.python.org/). Make sure Python and pip are added to your system's PATH.
+*   **Git:** Recommended for managing code, but not strictly required for running locally via the batch script.
+
+**Steps:**
+
+1.  **Download Project Files:**
+    *   Obtain all the necessary files (`app.py`, `logic.py`, `data_utils.py`, `requirements.txt`, `setup_and_run.bat`, `static/css/style.css`, `static/js/main.js`, `templates/index.html`, `templates/404.html`, `templates/500.html`).
+    *   Ensure these files are organized into the structure shown above.
+    *   Place your original `diseases.csv` file inside the `data/` folder.
+
+2.  **Install Dependencies:**
+    *   Open a command prompt or terminal.
+    *   Navigate to the root directory of the project (`symptom_checker_project/`).
+    *   Run the setup script:
+        ```bash
+        .\setup_and_run.bat
+        ``` 
+    *   This script will:
+        *   Create necessary directories (`data`, `logs`, `static/css`, `static/js`, `templates`).
+        *   Install all required Python packages listed in `requirements.txt` using pip.
+        *   It will **not** create the Python files themselves; ensure you have them populated with the correct code.
+
+**Note:** The `setup_and_run.bat` script is designed for Windows. For macOS or Linux, you would adapt the commands (e.g., use `bash` scripts, `mkdir -p`, `pip install -r`).
+
+## Running the Application
+
+1.  **Start the Server:**
+    *   Ensure you are in the project's root directory in your command prompt/terminal.
+    *   Run the batch script:
+        ```bash
+        .\setup_and_run.bat
+        ```
+    *   The script will install dependencies (if not already installed) and then start the Flask development server.
+
+2.  **Access the Application:**
+    *   Open your web browser and go to: `http://127.0.0.1:5000/` (or the address provided by Flask).
+
+3.  **Use the Symptom Checker:**
+    *   Enter your symptoms in the provided text field.
+    *   Click "Diagnose".
+    *   View the primary diagnosis, confidence score, and other potential diagnoses.
+    *   Provide feedback by clicking "Correct" or "Incorrect".
+
+4.  **Stop the Server:**
+    *   Go back to the command prompt where the Flask server is running and press `Ctrl + C`.
+
+## Data
+
+*   The application relies on `data/diseases.csv` for its knowledge base.
+*   The `data_utils.py` script preprocesses this data, normalizing symptoms and removing duplicates, saving the result to `data/cleaned_diseases.csv`. This cleaned file is used by the AI model.
+
+## Important Notes
+
+*   **Development Server:** The included `setup_and_run.bat` script uses Flask's built-in development server, which is suitable for testing and development but **not recommended for production environments**. For production, consider using a WSGI server like Gunicorn or uWSGI.
+*   **Model Download:** The `sentence-transformers` library will download the model (`all-MiniLM-L6-v2`) automatically the first time it's used. This might take a few minutes depending on your internet connection.
+*   **Accuracy:** The accuracy of the diagnosis depends heavily on the quality and comprehensiveness of the `diseases.csv` dataset and the effectiveness of the AI model and symptom normalization.
+*   **Disclaimer:** This tool is for informational purposes only and should **not** be considered a substitute for professional medical advice, diagnosis, or treatment.

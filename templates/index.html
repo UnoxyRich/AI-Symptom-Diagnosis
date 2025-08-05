@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>AI Symptom Diagnosis</title>
+ <!-- Link to our CSS file -->
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+ <div class="container fade-in">
+  <h1>AI Symptom Diagnosis</h1>
+  
+  <form id="symptomForm" method="POST">
+   <label for="symptomsInput">Enter your symptoms:</label><br>
+   <input 
+       type="text" 
+       id="symptomsInput" 
+       name="symptoms" 
+       size="80" 
+       placeholder="e.g., fever, dry cough, headache" 
+       value="{{ user_symptoms_input }}" 
+       required
+   >
+   <br><br>
+   
+   {% if error_message %}
+    <p class="error-message">{{ error_message }}</p>
+   {% endif %}
+
+   <button type="submit" id="diagnoseBtn">Diagnose</button>
+  </form>
+
+  <!-- Primary Result Section -->
+  {% if result %}
+  <div id="resultSection" class="result-container">
+   <h2>Primary Diagnosis Result</h2>
+   <p><strong>Input Symptoms:</strong> {{ result.symptoms }}</p>
+   <p><strong>Predicted Disease:</strong> {{ result.disease }}</p>
+   <p><strong>Treatment:</strong> {{ result.treatment }}</p>
+   <p><strong>Confidence:</strong> {{ result.confidence }}%</p>
+   
+   <!-- Feedback Buttons -->
+   <div class="feedback-buttons">
+    <p>Is this diagnosis correct?</p>
+    <button class="feedback-btn correct" data-input="{{ result.symptoms }}" data-disease="{{ result.disease }}" data-feedback="correct">Correct</button>
+    <button class="feedback-btn incorrect" data-input="{{ result.symptoms }}" data-disease="{{ result.disease }}" data-feedback="incorrect">Incorrect</button>
+   </div>
+  </div>
+  {% endif %}
+
+  <!-- Possible Diagnoses Section -->
+  {% if possible_diagnoses %}
+  <div id="possibleDiagnosesSection" class="possible-diagnoses-container">
+   <h2>Other Possible Diagnoses</h2>
+   {% for diagnosis in possible_diagnoses %}
+   <div class="diagnosis-item">
+    <p><strong>Disease:</strong> {{ diagnosis.disease }}</p>
+    <p><strong>Confidence:</strong> {{ diagnosis.confidence }}%</p>
+    <p><strong>Treatment:</strong> {{ diagnosis.treatment }}</p>
+    <div class="feedback-buttons">
+     <p>Is this correct?</p>
+     <button class="feedback-btn correct" data-input="{{ result.symptoms if result else user_symptoms_input }}" data-disease="{{ diagnosis.disease }}" data-feedback="correct">Correct</button>
+     <button class="feedback-btn incorrect" data-input="{{ result.symptoms if result else user_symptoms_input }}" data-disease="{{ diagnosis.disease }}" data-feedback="incorrect">Incorrect</button>
+    </div>
+   </div>
+   {% endfor %}
+  </div>
+  {% endif %}
+
+ </div>
+
+ <!-- JS for feedback and animations -->
+ <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

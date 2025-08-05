@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>500 - Internal Server Error</title>
+ <!-- Link to your main CSS file -->
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+ <style>
+  /* Specific styles for this error page */
+  .error-page-container {
+   background-color: #f8d7da; /* Light red background */
+   border-color: #f5c6cb;     /* Red border */
+   color: #721c24;            /* Dark red text */
+   padding: 40px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+   animation: shake 0.8s ease-in-out; /* Simple shake animation */
+  }
+  .error-page-container h1 {
+   color: #721c24;
+   font-size: 3em;
+   margin-bottom: 15px;
+  }
+  .error-page-container p {
+   font-size: 1.2em;
+   margin-bottom: 20px;
+  }
+  .error-page-container a {
+   color: #0056b3; /* Link color */
+   text-decoration: none;
+   font-weight: bold;
+  }
+  .error-page-container a:hover {
+   text-decoration: underline;
+  }
+
+  /* Shake animation */
+  @keyframes shake {
+   0% { transform: translateX(0); }
+   25% { transform: translateX(-10px); } /* Shake left */
+   50% { transform: translateX(10px); }  /* Shake right */
+   75% { transform: translateX(-5px); }  /* Shake left again */
+   100% { transform: translateX(0); } /* Back to center */
+  }
+ </style>
+</head>
+<body>
+ <div class="container error-page-container">
+  <h1>Oops! 500</h1>
+  <p>Something went wrong on our end. We're working to fix it!</p>
+  <!-- Link back to the home page -->
+  <p><a href="{{ url_for('index') }}">Go back to the homepage</a></p>
+ </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>404 - Page Not Found</title>
+ <!-- Link to your main CSS file -->
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+ <style>
+  /* Specific styles for this error page */
+  .error-page-container {
+   background-color: #f8d7da; /* Light red background */
+   border-color: #f5c6cb;     /* Red border */
+   color: #721c24;            /* Dark red text */
+   padding: 40px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+   animation: bounce 0.8s ease; /* Simple bounce animation */
+  }
+  .error-page-container h1 {
+   color: #721c24;
+   font-size: 3em;
+   margin-bottom: 15px;
+  }
+  .error-page-container p {
+   font-size: 1.2em;
+   margin-bottom: 20px;
+  }
+  .error-page-container a {
+   color: #0056b3; /* Link color */
+   text-decoration: none;
+   font-weight: bold;
+  }
+  .error-page-container a:hover {
+   text-decoration: underline;
+  }
+
+  /* Bounce animation */
+  @keyframes bounce {
+   0% { transform: translateY(0); }
+   50% { transform: translateY(-10px); } /* Move up */
+   100% { transform: translateY(0); }
+  }
+ </style>
+</head>
+<body>
+ <div class="container error-page-container">
+  <h1>Oops! 404</h1>
+  <p>The page you are looking for could not be found.</p>
+  <!-- Link back to the home page -->
+  <p><a href="{{ url_for('index') }}">Go back to the homepage</a></p>
+ </div>
+</body>
+</html>

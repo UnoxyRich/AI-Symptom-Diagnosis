@@ -1,0 +1,5 @@
+flask
+pandas
+sentence-transformers
+torch
+Pillow
