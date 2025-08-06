@@ -112,3 +112,7 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-05 21:27:23,768 - app - WARNING - 404 Error: Requested path '/robots.txt' not found.
 2025-08-05 21:27:59,709 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
 2025-08-05 21:28:15,889 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-05 21:33:29,916 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:35:10,907 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-05 21:36:53,982 - app - INFO - Feedback received: Input='Tied and fevers, coughing', Predicted='Flu', Type='correct'
+2025-08-05 21:38:27,044 - app - INFO - SymptomChecker initialized successfully.

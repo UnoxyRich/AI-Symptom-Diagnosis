@@ -587,3 +587,122 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-05 21:32:03,373 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:32:03] "GET / HTTP/1.1" 200 -
 2025-08-05 21:32:03,404 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:32:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
 2025-08-05 21:32:03,412 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:32:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:33:09,813 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\__init__.py', reloading
+2025-08-05 21:33:09,825 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\__init__.py', reloading
+2025-08-05 21:33:09,837 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\json\\__init__.py', reloading
+2025-08-05 21:33:09,850 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\app.py', reloading
+2025-08-05 21:33:09,859 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\config.py', reloading
+2025-08-05 21:33:09,867 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\globals.py', reloading
+2025-08-05 21:33:09,876 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\helpers.py', reloading
+2025-08-05 21:33:09,883 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\templating.py', reloading
+2025-08-05 21:33:09,891 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\wrappers.py', reloading
+2025-08-05 21:33:09,901 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-08-05 21:33:09,906 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-08-05 21:33:09,913 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\typing.py', reloading
+2025-08-05 21:33:09,925 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\app.py', reloading
+2025-08-05 21:33:09,934 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-08-05 21:33:09,942 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sessions.py', reloading
+2025-08-05 21:33:09,954 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-08-05 21:33:09,963 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\utils.py', reloading
+2025-08-05 21:33:09,980 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pandas\\__init__.py', reloading
+2025-08-05 21:33:09,984 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\_internal.py', reloading
+2025-08-05 21:33:09,995 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-08-05 21:33:10,006 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-08-05 21:33:10,028 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\nn\\__init__.py', reloading
+2025-08-05 21:33:10,031 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\types.py', reloading
+2025-08-05 21:33:10,042 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pandas\\core\\frame.py', reloading
+2025-08-05 21:33:10,055 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-08-05 21:33:10,063 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2025-08-05 21:33:10,073 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2025-08-05 21:33:10,082 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-08-05 21:33:10,098 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_tensor.py', reloading
+2025-08-05 21:33:10,100 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\functional.py', reloading
+2025-08-05 21:33:10,101 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\autograd\\__init__.py', reloading
+2025-08-05 21:33:10,103 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\nn\\modules\\__init__.py', reloading
+2025-08-05 21:33:10,104 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\nn\\modules\\container.py', reloading
+2025-08-05 21:33:10,106 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\nn\\modules\\module.py', reloading
+2025-08-05 21:33:10,110 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\autograd\\grad_mode.py', reloading
+2025-08-05 21:33:10,111 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\utils\\_contextlib.py', reloading
+2025-08-05 21:33:10,125 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\ctx.py', reloading
+2025-08-05 21:33:11,096 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-05 21:33:22,769 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-05 21:33:22,770 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-05 21:33:22,775 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-05 21:33:22,775 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-05 21:33:22,785 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-05 21:33:22,785 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-05 21:33:29,748 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-05 21:33:29,916 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-05 21:33:29,916 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:33:29,935 - werkzeug - WARNING -  * Debugger is active!
+2025-08-05 21:33:29,956 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-05 21:34:07,855 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:34:07] "GET / HTTP/1.1" 200 -
+2025-08-05 21:34:07,988 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:34:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:34:07,991 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:34:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:34:20,241 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:34:20] "GET / HTTP/1.1" 200 -
+2025-08-05 21:34:20,278 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:34:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:34:20,278 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:34:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:34:29,662 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:34:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:34:29,692 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:34:29] "GET / HTTP/1.1" 200 -
+2025-08-05 21:34:29,727 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:34:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:34:29,729 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:34:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:35:10,768 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:35:10] "GET / HTTP/1.1" 200 -
+2025-08-05 21:35:10,817 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:35:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-05 21:35:10,848 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:35:10] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-05 21:35:10,907 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-05 21:35:10,908 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:35:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 21:35:39,622 - logic - WARNING - Diagnosis attempt: Input='I am interested in AI, tell me a story about you...' -> Predicted='Alzheimer's Disease' Confidence=11.4% (Emb=16.3%, KW=0.0%)
+2025-08-05 21:35:39,632 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:35:39] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:35:39,682 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:35:39] "GET / HTTP/1.1" 200 -
+2025-08-05 21:35:39,740 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:35:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:35:39,748 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:35:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:36:05,001 - logic - WARNING - Diagnosis attempt: Input='I am sick...' -> Predicted='Malaria' Confidence=30.9% (Emb=44.1%, KW=0.0%)
+2025-08-05 21:36:05,011 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:36:05,299 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:05] "GET / HTTP/1.1" 200 -
+2025-08-05 21:36:05,504 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:36:05,515 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:36:23,243 - logic - WARNING - Diagnosis attempt: Input='I feel tired...' -> Predicted='Vitamin D Deficiency' Confidence=37.8% (Emb=54.0%, KW=0.0%)
+2025-08-05 21:36:23,253 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:36:23,282 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:23] "GET / HTTP/1.1" 200 -
+2025-08-05 21:36:23,311 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:36:23,324 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:36:32,649 - logic - WARNING - Diagnosis attempt: Input='Tied...' -> Predicted='Bipolar Disorder' Confidence=7.9% (Emb=11.3%, KW=0.0%)
+2025-08-05 21:36:32,656 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:36:32,703 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:32] "GET / HTTP/1.1" 200 -
+2025-08-05 21:36:32,844 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:36:32,877 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:36:46,887 - logic - INFO - Diagnosis attempt: Input='Tied and fevers, coughing...' -> Predicted='Flu' Confidence=74.6% (Emb=63.8%, KW=100.0%)
+2025-08-05 21:36:46,897 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:46] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-05 21:36:46,932 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:46] "GET / HTTP/1.1" 200 -
+2025-08-05 21:36:46,973 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:36:46,977 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-05 21:36:53,982 - logic - INFO - Feedback received: Input='Tied and fevers, coughing...', Predicted='Flu', Feedback='correct' (Confirmation)
+2025-08-05 21:36:53,982 - app - INFO - Feedback received: Input='Tied and fevers, coughing', Predicted='Flu', Type='correct'
+2025-08-05 21:36:53,983 - werkzeug - INFO - 192.168.31.206 - - [05/Aug/2025 21:36:53] "POST /feedback HTTP/1.1" 200 -
+2025-08-05 21:37:46,248 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:37:46] "GET / HTTP/1.1" 200 -
+2025-08-05 21:37:46,284 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:37:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-05 21:37:46,295 - werkzeug - INFO - 192.168.31.195 - - [05/Aug/2025 21:37:46] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-08-05 21:38:05,456 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\externals\\__init__.py', reloading
+2025-08-05 21:38:05,525 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\optimize\\_highspy\\__init__.py', reloading
+2025-08-05 21:38:05,534 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\optimize\\_shgo_lib\\__init__.py', reloading
+2025-08-05 21:38:05,580 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sklearn\\externals\\_packaging\\__init__.py', reloading
+2025-08-05 21:38:05,587 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sklearn\\_built_with_meson.py', reloading
+2025-08-05 21:38:07,654 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-05 21:38:19,511 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-05 21:38:19,512 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-05 21:38:19,517 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-05 21:38:19,518 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-05 21:38:19,529 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-05 21:38:19,529 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-05 21:38:26,871 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-05 21:38:27,044 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-05 21:38:27,044 - app - INFO - SymptomChecker initialized successfully.
+2025-08-05 21:38:27,064 - werkzeug - WARNING -  * Debugger is active!
+2025-08-05 21:38:27,084 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-05 22:05:34,090 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-05 22:05:34,091 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-05 22:05:34,091 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-05 22:05:35,296 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-05 22:05:35,296 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-05 22:05:35,297 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
+2025-08-05 22:05:36,130 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
