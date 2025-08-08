@@ -706,3 +706,71 @@ ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), 
 2025-08-05 22:05:35,296 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
 2025-08-05 22:05:35,297 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\idk-wut\\app.py', reloading
 2025-08-05 22:05:36,130 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-06 16:24:30,129 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-06 16:24:30,129 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-06 16:24:30,134 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-06 16:24:30,134 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-06 16:24:30,143 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-06 16:24:30,143 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-06 16:24:35,201 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-06 16:24:35,364 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-06 16:24:35,364 - app - INFO - SymptomChecker initialized successfully.
+2025-08-06 16:24:36,669 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-08-06 16:24:36,669 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-06 16:24:36,688 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-06 16:24:47,132 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-06 16:24:47,132 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-06 16:24:47,137 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-06 16:24:47,138 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-06 16:24:47,146 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-06 16:24:47,146 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-06 16:24:52,708 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-06 16:24:52,869 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-06 16:24:52,870 - app - INFO - SymptomChecker initialized successfully.
+2025-08-06 16:24:52,888 - werkzeug - WARNING -  * Debugger is active!
+2025-08-06 16:24:52,907 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-06 16:25:23,343 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\app.py', reloading
+2025-08-06 16:25:23,343 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\templating.py', reloading
+2025-08-06 16:25:23,344 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\environment.py', reloading
+2025-08-06 16:25:23,346 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\loaders.py', reloading
+2025-08-06 16:25:23,408 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:25:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-06 16:25:24,023 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-06 16:25:35,110 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-06 16:25:35,110 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-06 16:25:35,115 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-06 16:25:35,116 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-06 16:25:35,124 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-06 16:25:35,124 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-06 16:25:39,644 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-06 16:25:39,806 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-06 16:25:39,806 - app - INFO - SymptomChecker initialized successfully.
+2025-08-06 16:25:39,825 - werkzeug - WARNING -  * Debugger is active!
+2025-08-06 16:25:39,846 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-06 16:25:40,592 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:25:40] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-06 16:25:40,594 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:25:40] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-06 16:25:40,610 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:25:40] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=IGVRzmm3eT3Tai7zAD0c HTTP/1.1" 200 -
+2025-08-06 16:25:41,024 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:25:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-06 16:25:51,976 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:25:51] "GET / HTTP/1.1" 200 -
+2025-08-06 16:25:51,977 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-08-06 16:25:52,309 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:25:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-06 16:25:52,309 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:25:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-08-06 16:25:52,572 - app - WARNING - 404 Error: Requested path '/favicon.ico' not found.
+2025-08-06 16:25:52,574 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:25:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-06 16:25:53,891 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-06 16:26:04,656 - logic - INFO - Attempting to load symptom checker resources...
+2025-08-06 16:26:04,657 - logic - INFO - Found processed JSON file. Loading from 'data/diseases.json'...
+2025-08-06 16:26:04,662 - logic - INFO - Successfully loaded 89 disease entries.
+2025-08-06 16:26:04,662 - logic - INFO - Loading Sentence Transformer model: all-MiniLM-L6-v2
+2025-08-06 16:26:04,672 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-06 16:26:04,672 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-06 16:26:09,202 - logic - INFO - Encoding normalized disease symptoms. This may take a moment...
+2025-08-06 16:26:09,359 - logic - INFO - Model and embeddings loaded successfully.
+2025-08-06 16:26:09,359 - app - INFO - SymptomChecker initialized successfully.
+2025-08-06 16:26:09,375 - werkzeug - WARNING -  * Debugger is active!
+2025-08-06 16:26:09,393 - werkzeug - INFO -  * Debugger PIN: 736-584-036
+2025-08-06 16:26:10,034 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:26:10] "GET / HTTP/1.1" 200 -
+2025-08-06 16:26:10,107 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:26:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-06 16:26:10,353 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2025 16:26:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
